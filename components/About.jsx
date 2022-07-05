@@ -82,7 +82,7 @@ const About = () => {
           </div>
           <div className="w-[100%] md:w-[35%] py-12 md:py-0">
             <Image
-              src="https://i.ibb.co/Th9G5BR/enveed-1.png"
+              src="/assets/enveed.png"
               alt="seam-sopagnarith"
               className="rounded-sm"
               layout="responsive"

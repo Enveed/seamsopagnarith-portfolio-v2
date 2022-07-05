@@ -68,7 +68,7 @@ function Work() {
               className={`${
                 activeTab === 1
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none hidden"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
@@ -108,7 +108,7 @@ function Work() {
               className={`${
                 activeTab === 2
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none hidden"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
@@ -148,8 +148,8 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none hidden"
+                  ? "h-auto opacity-100 transition-opacity block duration-300"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
