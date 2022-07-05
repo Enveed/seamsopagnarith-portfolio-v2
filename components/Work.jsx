@@ -148,7 +148,7 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
-                  ? "h-auto opacity-100 transition-opacity block duration-300"
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
             >

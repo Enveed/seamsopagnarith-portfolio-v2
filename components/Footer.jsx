@@ -45,8 +45,8 @@ const Footer = () => {
         </Link>
       </p>
       <p className="text-sm hover:text-[#64ffda] duration-300 mb-2">
-        <Link href="">
-          <a target="_blank">Built by Sopagnarith Seam</a>
+        <Link href="/">
+          <a>Built by Sopagnarith Seam</a>
         </Link>
       </p>
 
