@@ -144,15 +144,17 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <li>
-              <motion.button
-                initial={{ opacity: 0, y: -100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.5 }}
-                viewport={{ once: true }}
-                className="py-2 px-2 w-20 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300"
-              >
-                Resume
-              </motion.button>
+              <Link href="https://i1.camhr.com/cv/files/5dc8e4bb605d1431862602ebc755074469f17fafd2466e79dd115cb5bc053435.pdf">
+                <motion.button
+                  initial={{ opacity: 0, y: -100 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.5 }}
+                  viewport={{ once: true }}
+                  className="py-2 px-2 w-20 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300"
+                >
+                  Resume
+                </motion.button>
+              </Link>
             </li>
           </ol>
           <motion.div
@@ -270,9 +272,11 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ol>
-              <button className="w-40 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300">
-                Resume
-              </button>
+              <Link href="https://i1.camhr.com/cv/files/5dc8e4bb605d1431862602ebc755074469f17fafd2466e79dd115cb5bc053435.pdf">
+                <button className="w-40 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300">
+                  Resume
+                </button>
+              </Link>
             </div>
           </div>
         </div>
