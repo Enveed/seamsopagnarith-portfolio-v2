@@ -19,7 +19,7 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link href="https://www.linkedin.com/in/sopagnarith-seam-471682224">
+          <Link href="https://www.linkedin.com/in/sopagnarith-seam-38571a253">
             <a target="_blank">
               <FiLinkedin
                 size={20}
@@ -69,7 +69,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/sopagnarith-seam-471682224">
+            <Link href="https://www.linkedin.com/in/sopagnarith-seam-38571a253">
               <a target="_blank">
                 <FiLinkedin
                   size={20}
