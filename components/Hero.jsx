@@ -22,7 +22,7 @@ const Hero = () => {
           viewport={{ once: true }}
           className="text-4xl text-[#ccd6f6] md:text-6xl font-sans"
         >
-          Seam Sopagnarith.
+          Sopagnarith SEAM.
         </motion.h2>
         <motion.h2
           initial={{ opacity: 0, y: 10 }}
@@ -41,8 +41,8 @@ const Hero = () => {
           className="max-w-lg font-sans"
         >
           I&apos;m a Software Engineer student specializing in server-side and
-          network technologies. Currently, I&apos;m focused on becoming a
-          full-stack web developer.
+          cloud technologies. Currently, I&apos;m focused on becoming a
+          full-stack developer.
         </motion.p>
         <Link href="#contact">
           <motion.a

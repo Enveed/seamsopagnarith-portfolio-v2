@@ -29,7 +29,7 @@ const Footer = () => {
           </Link>
         </li>
         <li>
-          <Link href="https://t.me/enveed13">
+          <Link href="https://t.me/sopagnarith_seam">
             <a target="_blank">
               <TbBrandTelegram
                 size={20}
@@ -79,7 +79,7 @@ const Footer = () => {
             </Link>
           </li>
           <li>
-            <Link href="https://t.me/enveed13">
+            <Link href="https://t.me/sopagnarith_seam">
               <a target="_blank">
                 <TbBrandTelegram
                   size={20}

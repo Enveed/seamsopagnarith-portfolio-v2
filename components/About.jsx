@@ -46,7 +46,7 @@ const About = () => {
               traveling app, a chat app with grammar correction and most
               importantly, I&apos;ve managed to acquire professional working
               experience under{" "}
-              <Link href="https://skyasianetwork.com">
+              <Link href="https://jobify.works">
                 <a
                   target="_blank"
                   className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"

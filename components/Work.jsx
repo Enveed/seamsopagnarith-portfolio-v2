@@ -8,11 +8,13 @@ function Work() {
     "sm:translate-y-[0px]",
     "sm:translate-y-[42px]",
     "sm:translate-y-[84px]",
+    "sm:translate-y-[126px]",
   ];
   const indicatorMovement = [
     "translate-x-[0px]",
     "translate-x-[120px]",
     "translate-x-[240px]",
+    "translate-x-[360px]",
   ];
 
   return (
@@ -36,7 +38,7 @@ function Work() {
                 activeTab === 1 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              K-Digital
+              Jobify
             </button>
             <button
               onClick={() => setActiveTab(2)}
@@ -44,12 +46,20 @@ function Work() {
                 activeTab === 2 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              SAN
+              K-Digital
             </button>
             <button
               onClick={() => setActiveTab(3)}
               className={`${
                 activeTab === 3 ? "text-[#64ffda]" : "text-[#8892b0]"
+              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+            >
+              SAN
+            </button>
+            <button
+              onClick={() => setActiveTab(4)}
+              className={`${
+                activeTab === 4 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
               KCyberOp
@@ -72,6 +82,55 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
+                Fullstack Developer{" "}
+                <span className="text-[#64ffda]">
+                  @{" "}
+                  <Link href="https://jobify.works">
+                    <a
+                      target="_blank"
+                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Jobify Cambodia
+                    </a>
+                  </Link>
+                </span>
+              </h3>
+              <p className="font-mono text-[#a8b2d1]">
+                November 2022 - Present
+              </p>
+              <ul className="pt-3">
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with React Native as well as Redux and Saga in order to
+                  develop mobile application
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with Amazon Web Service (AWS) services such as: EC2, S3,
+                  Cloudwatch…etc. in order to deploy and maintain website and
+                  backend infrastructure
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with various types of testing such as unit test (Jest)
+                  and load test (k6.io)
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with Node.js and MySQL in order to maintain job portal
+                  backend
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with FastAPI (Python) and Gunicorn in order to maintain
+                  machine learning model for job matching.
+                </li>
+              </ul>
+            </div>
+
+            <div
+              className={`${
+                activeTab === 2
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
+              }`}
+            >
+              <h3 className="text-[#ccd6f6] text-xl">
                 Backend Developer{" "}
                 <span className="text-[#64ffda]">
                   @{" "}
@@ -86,19 +145,19 @@ function Work() {
                 </span>
               </h3>
               <p className="font-mono text-[#a8b2d1]">
-                September 2021 - Present
+                September 2021 - November 2022
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with three other developers to build a chat app with
+                  Worked with three other developers to build a chat app with
                   grammar correction, which requires Machine Learning
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with variety of different languages and frameworks such
+                  Worked with variety of different languages and frameworks such
                   as React Native, FastAPI, NestJS, NodeJS...etc.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with cloud infrastructure for application deployment such
+                  Worked with cloud infrastructure for application deployment such
                   as Google Cloud Platform and Amazon Web Services
                 </li>
               </ul>
@@ -106,7 +165,7 @@ function Work() {
 
             <div
               className={`${
-                activeTab === 2
+                activeTab === 3
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -147,7 +206,7 @@ function Work() {
 
             <div
               className={`${
-                activeTab === 3
+                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
