@@ -51,7 +51,7 @@ const About = () => {
                   target="_blank"
                   className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                 >
-                  a start-up company
+                  a revolutionary startup company
                 </a>
               </Link>
               .
