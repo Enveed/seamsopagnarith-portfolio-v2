@@ -61,22 +61,22 @@ const About = () => {
             </p>
             <ul className="grid grid-cols-skill-grid gap-2 overflow-hidden font-mono">
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NextJS
+                React Native
+              </li>
+              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
+                AWS
+              </li>
+              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
+                NuxtJS (Vue)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 NodeJS
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                FastAPI
+                k6.io
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Wordpress
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Linux
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NestJS
+                ReactJS
               </li>
             </ul>
           </div>

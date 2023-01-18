@@ -25,7 +25,7 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <Link href="https://play.google.com/store/apps/details?id=com.jobifycambodia">
+            <Link href="https://jobify.works">
               <a target="_blank">
                 <main>
                   <div className="pb-4">
