@@ -25,7 +25,7 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <Link href="https://jobify.works">
+            <Link href="https://play.google.com/store/apps/details?id=com.jobifycambodia">
               <a target="_blank">
                 <main>
                   <div className="pb-4">
@@ -35,13 +35,14 @@ export const Project = () => {
                     Jobify Mobile App
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    A job matching platform to improve the livelihood of IT workers in Cambodia.
+                    A job matching platform to improve the livelihood of IT
+                    workers in Cambodia.
                   </p>
                 </main>
                 <footer>
                   <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>React Native</li>
-                    <li>Node.js</li>
+                    <li>ExpressJS</li>
                     <li>AWS</li>
                     <li>FastAPI</li>
                   </ul>
@@ -57,6 +58,39 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
+            <Link href="https://jobify.works">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Jobify Web App
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    A job matching platform to improve the livelihood of IT
+                    workers in Cambodia.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>NuxtJS</li>
+                    <li>ExpressJS</li>
+                    <li>AWS</li>
+                    <li>FastAPI</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
             <main>
               <div className="pb-4">
                 <AiOutlineFolder size={50} className="fill-[#64ffda]" />
@@ -70,7 +104,7 @@ export const Project = () => {
             </main>
             <footer>
               <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                <li>Gun.js</li>
+                <li>GunJS</li>
                 <li>FastAPI</li>
                 <li>T5 Model</li>
               </ul>
@@ -79,7 +113,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -101,43 +135,9 @@ export const Project = () => {
                   </main>
                   <footer>
                     <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                      <li>Next.js</li>
+                      <li>NextJS</li>
                       <li>Tailwind CSS</li>
                       <li>Framer Motion</li>
-                    </ul>
-                  </footer>
-                </div>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://enejobsolution.com">
-              <a target="_blank">
-                <div className="flex h-full justify-between flex-col">
-                  <main>
-                    <div className="pb-4">
-                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                    </div>
-                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                      Job Portal Web App
-                    </h3>
-                    <p className="text-[#a8b2d1] pb-2">
-                      A job portal web application with Employee and Candidate
-                      interface
-                    </p>
-                  </main>
-                  <footer>
-                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                      <li>Wordpress</li>
-                      <li>Elementor</li>
-                      <li>Woocommerece</li>
                     </ul>
                   </footer>
                 </div>

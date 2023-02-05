@@ -20,8 +20,11 @@ const Contact = () => {
           I&apos;m currently looking for job opportunities, my inbox is always
           open. I&apos;ll try my best to get back to you asap!
         </p>
-        <Link href="mailto:sopagnarithseam@gmail.com">
-          <a className="inline-block p-4 mt-[50px] shadow-xl rounded-md w-40 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300 font-mono">
+        <Link href="https://t.me/sopagnarith_seam">
+          <a
+            target="_blank"
+            className="inline-block p-4 mt-[50px] shadow-xl rounded-md w-40 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300 font-mono"
+          >
             Say Hello
           </a>
         </Link>

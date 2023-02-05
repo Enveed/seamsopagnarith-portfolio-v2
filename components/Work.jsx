@@ -46,7 +46,7 @@ function Work() {
                 activeTab === 2 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              K-Digital
+              KIT
             </button>
             <button
               onClick={() => setActiveTab(3)}
@@ -54,7 +54,7 @@ function Work() {
                 activeTab === 3 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              SAN
+              KIT
             </button>
             <button
               onClick={() => setActiveTab(4)}
@@ -62,7 +62,7 @@ function Work() {
                 activeTab === 4 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              KCyberOp
+              SAN
             </button>
 
             <div
@@ -139,7 +139,7 @@ function Work() {
                       target="_blank"
                       className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                     >
-                      Kirirom Digital
+                      Kirirom Institute of Technology
                     </a>
                   </Link>
                 </span>
@@ -157,8 +157,8 @@ function Work() {
                   as React Native, FastAPI, NestJS, NodeJS...etc.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with cloud infrastructure for application deployment such
-                  as Google Cloud Platform and Amazon Web Services
+                  Worked with cloud infrastructure for application deployment
+                  such as Google Cloud Platform and Amazon Web Services
                 </li>
               </ul>
             </div>
@@ -166,6 +166,49 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
+              }`}
+            >
+              <h3 className="text-[#ccd6f6] text-xl">
+                Cyber Security Specialist{" "}
+                <span className="text-[#64ffda]">
+                  @{" "}
+                  <Link href="https://kit.edu.kh">
+                    <a
+                      target="_blank"
+                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Kirirom Institute of Technology
+                    </a>
+                  </Link>
+                </span>
+              </h3>
+              <p className="font-mono text-[#a8b2d1]">
+                September 2019 - September 2021
+              </p>
+              <ul className="pt-3">
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Audited network infrastructure and provided full detail
+                  reports of the result
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Implemented Graylog SIEM on Kirirom Network
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Researched on Incident Response, Network Defense and SIEM
+                  tools
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Developed contents for Cyber Security Bootcamp and Advanced
+                  Cyber Security Bootcamp
+                </li>
+              </ul>
+            </div>
+
+            <div
+              className={`${
+                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -200,49 +243,6 @@ function Work() {
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Provided support to Microsoft clients via Microsoft Admin
-                </li>
-              </ul>
-            </div>
-
-            <div
-              className={`${
-                activeTab === 4
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none [&>*]:hidden"
-              }`}
-            >
-              <h3 className="text-[#ccd6f6] text-xl">
-                Cyber Security Specialist{" "}
-                <span className="text-[#64ffda]">
-                  @{" "}
-                  <Link href="https://kcyberop.com">
-                    <a
-                      target="_blank"
-                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      KCyberOp
-                    </a>
-                  </Link>
-                </span>
-              </h3>
-              <p className="font-mono text-[#a8b2d1]">
-                September 2019 - September 2021
-              </p>
-              <ul className="pt-3">
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Audited network infrastructure and provided full detail
-                  reports of the result
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented Graylog SIEM on Kirirom Network
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Researched on Incident Response, Network Defense and SIEM
-                  tools
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed contents for Cyber Security Bootcamp and Advanced
-                  Cyber Security Bootcamp
                 </li>
               </ul>
             </div>

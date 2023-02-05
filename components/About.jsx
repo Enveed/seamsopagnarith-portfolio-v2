@@ -35,9 +35,9 @@ const About = () => {
             </p>
             <p className="my-4">
               However, towards the end of 2021, I&apos;ve unknowingly managed to
-              discover my profound interest for Web Development, which heavily
-              influenced my decision in making a major career shift towards Web
-              Development.
+              discover my profound interest for Software Development, which
+              heavily influenced my decision in making a major career shift
+              towards Software Development.
             </p>
             <p className="my-4">
               Despite being my first actual intensive year in the field,
@@ -57,7 +57,7 @@ const About = () => {
               .
             </p>
             <p className="my-4">
-              Here are a few technologies I’ve been working with recently:
+              Here are a few technologies I&apos;ve been working with recently:
             </p>
             <ul className="grid grid-cols-skill-grid gap-2 overflow-hidden font-mono">
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
@@ -70,7 +70,7 @@ const About = () => {
                 NuxtJS (Vue)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NodeJS
+                NodeJS (Express)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 k6.io

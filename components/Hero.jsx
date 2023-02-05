@@ -40,9 +40,9 @@ const Hero = () => {
           viewport={{ once: true }}
           className="max-w-lg font-sans"
         >
-          I&apos;m a Software Engineer student specializing in server-side and
-          cloud technologies. Currently, I&apos;m focused on becoming a
-          full-stack developer.
+          A young, enthusiastic and perfectionist Software Developer with a vast
+          background in backend and frontend development as well as
+          infrastructure support and networking.
         </motion.p>
         <Link href="#contact">
           <motion.a
