@@ -89,26 +89,32 @@ export const Project = () => {
             whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
-            className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <main>
-              <div className="pb-4">
-                <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-              </div>
-              <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                Chat App with Grammar Correction
-              </h3>
-              <p className="text-[#a8b2d1] pb-2">
-                Building a peer-to-peer chat app with Grammar Correction
-              </p>
-            </main>
-            <footer>
-              <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                <li>GunJS</li>
-                <li>FastAPI</li>
-                <li>T5 Model</li>
-              </ul>
-            </footer>
+            <Link href="https://enveed-camp.onrender.com">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    RithCamp
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    A simple camping website, built to demonstrate the usage of
+                    Express, MongoDB and EJS.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                    <li>EJS</li>
+                    <li>Cloudinary</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
           </motion.div>
 
           <motion.div
@@ -116,7 +122,7 @@ export const Project = () => {
             whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
-            className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
             <Link href="/">
               <a>
@@ -157,18 +163,17 @@ export const Project = () => {
                 <AiOutlineFolder size={50} className="fill-[#64ffda]" />
               </div>
               <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                Covid Traveler App
+                Chat App with Grammar Correction
               </h3>
               <p className="text-[#a8b2d1] pb-2">
-                A mobile app that helps users prepare when travelling from one
-                country to another
+                Building a peer-to-peer chat app with Grammar Correction
               </p>
             </main>
             <footer>
               <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                <li>NestJS</li>
-                <li>MongoDB</li>
-                <li>GCP</li>
+                <li>GunJS</li>
+                <li>FastAPI</li>
+                <li>T5 Model</li>
               </ul>
             </footer>
           </motion.div>
@@ -178,7 +183,7 @@ export const Project = () => {
             whileInView={{ y: 0, opacity: 1, transition: { delay: 2.5 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
-            className=" bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
             <Link href="https://pagnarithseam18.github.io">
               <a target="_blank">
