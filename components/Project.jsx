@@ -25,6 +25,74 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
+            <Link href="https://prueshop.prudential.com.kh/eposweb">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Prudential WebPOS
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An insurance selling platform that help eases agents&apos;
+                    bothersome process; by having everything packaged into a
+                    single platform.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ReactJS</li>
+                    <li>MUI</li>
+                    <li>Context</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/lead">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Prudential Lead Management
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An inhouse application for agents to keep track of leads
+                    that may be converted into potential sales.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ReactJS</li>
+                    <li>MUI</li>
+                    <li>Zustand</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
             <Link href="https://play.google.com/store/apps/details?id=com.jobifycambodia">
               <a target="_blank">
                 <main>
@@ -53,7 +121,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.1 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -86,7 +154,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.4 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -119,7 +187,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.5 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -153,34 +221,40 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.4 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.6 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <main>
-              <div className="pb-4">
-                <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-              </div>
-              <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                Chat App with Grammar Correction
-              </h3>
-              <p className="text-[#a8b2d1] pb-2">
-                Building a peer-to-peer chat app with Grammar Correction
-              </p>
-            </main>
-            <footer>
-              <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                <li>GunJS</li>
-                <li>FastAPI</li>
-                <li>T5 Model</li>
-              </ul>
-            </footer>
+            <Link href="https://play.google.com/store/apps/details?id=com.kit.chatlearn">
+              <a target="_blank">
+                <div className="flex h-full justify-between flex-col">
+                  <main>
+                    <div className="pb-4">
+                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                    </div>
+                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                      Chat App with Grammar Correction
+                    </h3>
+                    <p className="text-[#a8b2d1] pb-2">
+                      Building a peer-to-peer chat app with Grammar Correction
+                    </p>
+                  </main>
+                  <footer>
+                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                      <li>GunJS</li>
+                      <li>FastAPI</li>
+                      <li>T5 Model</li>
+                    </ul>
+                  </footer>
+                </div>
+              </a>
+            </Link>
           </motion.div>
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.5 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.7 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"

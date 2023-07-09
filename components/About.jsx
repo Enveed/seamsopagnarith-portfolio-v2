@@ -43,9 +43,8 @@ const About = () => {
               Despite being my first actual intensive year in the field,
               I&apos;ve had the privilege of working under multiple
               professional-setting projects such as: a job portal app, a covid
-              traveling app, a chat app with grammar correction and most
-              importantly, I&apos;ve managed to acquire professional working
-              experience under{" "}
+              traveling app and a chat app with grammar correction. I started
+              out my professional working experience under{" "}
               <Link href="https://jobify.works">
                 <a
                   target="_blank"
@@ -54,29 +53,41 @@ const About = () => {
                   a revolutionary startup company
                 </a>
               </Link>
-              .
+              , that aims to connect IT workers within Cambodia with companies
+              that are in need. Most recently, I&apos;ve managed to land an
+              opportunity in{" "}
+              <Link href="https://www.prudential.com.kh">
+                <a
+                  target="_blank"
+                  className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                >
+                  one of Cambodia&apos;s largest insurance company
+                </a>
+              </Link>
+              , that aims to raise insurance awareness to ensure better
+              livelihood for Khmer people.
             </p>
             <p className="my-4">
               Here are a few technologies I&apos;ve been working with recently:
             </p>
             <ul className="grid grid-cols-skill-grid gap-2 overflow-hidden font-mono">
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                React Native
+                ReactJS
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 AWS
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NuxtJS (Vue)
+                React Native
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 NodeJS (Express)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                k6.io
+                NuxtJS (Vue)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                ReactJS
+                k6.io
               </li>
             </ul>
           </div>
