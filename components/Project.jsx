@@ -285,6 +285,40 @@ export const Project = () => {
               </a>
             </Link>
           </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.8 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://github.com/Enveed/data-portfolio">
+              <a target="_blank">
+                <div className="flex h-full justify-between flex-col">
+                  <main>
+                    <div className="pb-4">
+                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                    </div>
+                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                      Data Portfolio
+                    </h3>
+                    <p className="text-[#a8b2d1] pb-2">
+                      A portfolio for demonstrating my ability to interpret,
+                      organize and present data.
+                    </p>
+                  </main>
+                  <footer>
+                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                      <li>PowerBI</li>
+                      <li>SQL</li>
+                      <li>Python</li>
+                    </ul>
+                  </footer>
+                </div>
+              </a>
+            </Link>
+          </motion.div>
         </div>
       </div>
     </div>
