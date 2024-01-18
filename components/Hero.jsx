@@ -40,9 +40,11 @@ const Hero = () => {
           viewport={{ once: true }}
           className="max-w-lg font-sans"
         >
-          A young, enthusiastic and perfectionist Software Developer with a vast
-          background in backend and frontend development as well as
-          infrastructure support and networking.
+          Enthusiastic and detail-oriented Software Engineer with a passion for
+          creating responsive and user-friendly web applications. Proficient in
+          modern frontend technologies, with a strong foundation in React. Adept
+          at working with different technologies to deliver high-quality
+          solutions.
         </motion.p>
         <Link href="#contact">
           <motion.a
