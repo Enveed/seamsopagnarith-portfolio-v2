@@ -19,10 +19,10 @@ const About = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-[100%] md:w-[65%] pr-0 py-12 md:pr-12 sm:py-0">
             <p className="mb-4">
-              Hello! My name is Sopagnarith and I enjoy learning as well as
-              developing new things. I started out my career path in Cyber
-              Security back in 2019, in which I&apos;ve had many opportunities
-              to be responsible for many cyber security tasks at{" "}
+              Hello! My name is Sopagnarith and I enjoy exploring and
+              implementing new technologies. I started out my career path in
+              Cyber Security back in 2019, in which I&apos;ve had many
+              opportunities to be responsible for many cyber security tasks at{" "}
               <Link href="https://kit.edu.kh">
                 <a
                   target="_blank"
@@ -54,8 +54,8 @@ const About = () => {
                 </a>
               </Link>
               , that aims to connect IT workers within Cambodia with companies
-              that are in need. Most recently, I&apos;ve managed to land an
-              opportunity in{" "}
+              that are in need. Most recently, I&apos;ve received an opportunity
+              to work in{" "}
               <Link href="https://www.prudential.com.kh">
                 <a
                   target="_blank"
@@ -75,25 +75,25 @@ const About = () => {
                 ReactJS
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                AWS
+                Material UI
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 React Native
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NodeJS (Express)
+                Zustand
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                NuxtJS (Vue)
+                Playwright
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                k6.io
+                Kubernetes
               </li>
             </ul>
           </div>
           <div className="w-[100%] md:w-[35%] py-12 md:py-0">
             <Image
-              src="/assets/enveed.png"
+              src="/assets/sopagnarith-seam-image.png"
               alt="seam-sopagnarith"
               className="rounded-sm"
               layout="responsive"
