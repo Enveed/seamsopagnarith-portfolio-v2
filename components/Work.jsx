@@ -6,10 +6,10 @@ function Work() {
   const [activeTab, setActiveTab] = useState(1);
   const indicatorMovementMd = [
     "sm:translate-y-[0px]",
-    "sm:translate-y-[42px]",
-    "sm:translate-y-[84px]",
-    "sm:translate-y-[126px]",
-    "sm:translate-y-[168px]",
+    "sm:translate-y-[60px]",
+    "sm:translate-y-[120px]",
+    "sm:translate-y-[180px]",
+    "sm:translate-y-[240px]",
   ];
   const indicatorMovement = [
     "translate-x-[0px]",
@@ -38,45 +38,45 @@ function Work() {
               onClick={() => setActiveTab(1)}
               className={`${
                 activeTab === 1 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Prudential
+              Prudential Cambodia
             </button>
             <button
               onClick={() => setActiveTab(2)}
               className={`${
                 activeTab === 2 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Jobify
+              Jobify Cambodia
             </button>
             <button
               onClick={() => setActiveTab(3)}
               className={`${
                 activeTab === 3 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              KIT
+              Sky Asia Network
             </button>
             <button
               onClick={() => setActiveTab(4)}
               className={`${
                 activeTab === 4 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              KIT
+              Kirirom Institute
             </button>
             <button
               onClick={() => setActiveTab(5)}
               className={`${
                 activeTab === 5 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[42px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              SAN
+              Kirirom Institute
             </button>
 
             <div
-              className={`absolute w-[120px] h-[2px] sm:h-[42px] sm:w-[2px] bottom-0 top-auto sm:top-0 sm:bottom-auto left-0 z-10 bg-[#64ffda] ${
+              className={`absolute w-[120px] h-[2px] sm:h-[60px] sm:w-[2px] bottom-0 top-auto sm:top-0 sm:bottom-auto left-0 z-10 bg-[#64ffda] ${
                 indicatorMovement[activeTab - 1]
               } sm:translate-x-0 translate-y-0 ${
                 indicatorMovementMd[activeTab - 1]
@@ -108,27 +108,30 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">March 2023 - Present</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with React, Zustand, MUI and Context API to develop
-                  various in-house applications
+                  Mainly responsible for developing the frontend of insurance
+                  selling platform for agents, enabling the company to hit
+                  target KPIs in two LBUs and the project to win Project of the
+                  Year for 2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with Jenkins pipeline for CI/CD
+                  Developing and maintaining “dynamic” frontend solutions with
+                  ReactJS, Context API, Material UI, AngularJS, Axios, to enable
+                  faster delivery and more flexibility in accordance with
+                  business requirements.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with BitBucket as main VCS for various in-house
-                  applications
+                  Maintain deployment setup of various in-house applications
+                  with Jenkins, Kubernetes, SQL Server, MongoDB.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with Jira and Microsoft Planner to keep track of bugs and
-                  daily tasks
+                  Help supervise internal frontend engineering team, providing
+                  guidance and pointers to improve team performance and app
+                  quality.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with MongoDB and SQL Server to store various data and
-                  configurations
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with local and international stakeholders on daily basis
-                  to develop and maintain in-house applications
+                  Collaborate with BA and PM teams to deliver high-quality
+                  solutions, ensuring adherence to timelines and engineering
+                  standards.
                 </li>
               </ul>
             </div>
@@ -159,25 +162,28 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with React Native as well as Redux and Saga in order to
-                  develop mobile application
+                  Developed and maintained the company&apos;s flagship mobile
+                  application using React Native, NativeBase, Redux, Redux-saga,
+                  creating a high-quality user experience.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with Amazon Web Service (AWS) services such as: EC2, S3,
-                  Cloudwatch…etc. in order to deploy and maintain website and
-                  backend infrastructure
+                  Contributed to the development and deployment of a
+                  job-matching AI model, resulting in a 50% improvement in
+                  response rate.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with various types of testing such as unit test (Jest)
-                  and load test (k6.io)
+                  Worked with Amazon Web Service services such as: EC2, S3,
+                  Cloudwatch…etc., to host and maintain the company&apos;s web
+                  infrastructure.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with Node.js and MySQL in order to maintain job portal
-                  backend
+                  Implemented and maintained testing strategies such as: unit
+                  test (Jest) and load test (k6.io), to ensure the robustness of
+                  the mobile application and backend services.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with FastAPI (Python) and Gunicorn in order to maintain
-                  machine learning model for job matching.
+                  Worked closely with the QA team to identify and address bugs
+                  and issues in a timely manner.
                 </li>
               </ul>
             </div>
@@ -185,89 +191,6 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none [&>*]:hidden"
-              }`}
-            >
-              <h3 className="text-[#ccd6f6] text-xl">
-                Backend Developer{" "}
-                <span className="text-[#64ffda]">
-                  @{" "}
-                  <Link href="https://kit.edu.kh">
-                    <a
-                      target="_blank"
-                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Kirirom Institute of Technology
-                    </a>
-                  </Link>
-                </span>
-              </h3>
-              <p className="font-mono text-[#a8b2d1]">
-                September 2021 - November 2022
-              </p>
-              <ul className="pt-3">
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with three other developers to build a chat app with
-                  grammar correction, which requires Machine Learning
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with variety of different languages and frameworks such
-                  as React Native, FastAPI, NestJS, NodeJS...etc.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with cloud infrastructure for application deployment
-                  such as Google Cloud Platform and Amazon Web Services
-                </li>
-              </ul>
-            </div>
-
-            <div
-              className={`${
-                activeTab === 4
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none [&>*]:hidden"
-              }`}
-            >
-              <h3 className="text-[#ccd6f6] text-xl">
-                Cyber Security Specialist{" "}
-                <span className="text-[#64ffda]">
-                  @{" "}
-                  <Link href="https://kit.edu.kh">
-                    <a
-                      target="_blank"
-                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Kirirom Institute of Technology
-                    </a>
-                  </Link>
-                </span>
-              </h3>
-              <p className="font-mono text-[#a8b2d1]">
-                September 2019 - September 2021
-              </p>
-              <ul className="pt-3">
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Audited network infrastructure and provided full detail
-                  reports of the result
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented Graylog SIEM on Kirirom Network
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Researched on Incident Response, Network Defense and SIEM
-                  tools
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed contents for Cyber Security Bootcamp and Advanced
-                  Cyber Security Bootcamp
-                </li>
-              </ul>
-            </div>
-
-            <div
-              className={`${
-                activeTab === 5
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -289,19 +212,108 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed and shipped a job portal web application via
-                  Wordpress
+                  Designed and developed customers&apos; websites using
+                  Wordpress, HTML, CSS to enable faster delivery in accordance
+                  with business&apos; requirements.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with cloud infrastructure for application deployment
-                  such as OVH and infomaniak
+                  Deployed and maintained customers&apos; websites with
+                  OVHCloud, infomaniak, CPanel.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Directly communicated with clients on a daily basis for
-                  requirements and progress update
+                  Assisted sales staff in communicating with customers to better
+                  understand their requirements and to update progress in a
+                  timely manner.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Provided support to Microsoft clients via Microsoft Admin
+                  Assisted company in providing Microsoft Support services to
+                  customers.
+                </li>
+              </ul>
+            </div>
+
+            <div
+              className={`${
+                activeTab === 4
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
+              }`}
+            >
+              <h3 className="text-[#ccd6f6] text-xl">
+                Backend Developer (Intern){" "}
+                <span className="text-[#64ffda]">
+                  @{" "}
+                  <Link href="https://kit.edu.kh">
+                    <a
+                      target="_blank"
+                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Kirirom Institute of Technology
+                    </a>
+                  </Link>
+                </span>
+              </h3>
+              <p className="font-mono text-[#a8b2d1]">
+                September 2021 - November 2022
+              </p>
+              <ul className="pt-3">
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Led a team of three developers to build a chat app with
+                  grammar correction feature in a span of 4 months by using
+                  React Native, GunJS, Firebase, FastAPI, Google T5 Model.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Built backend REST API for various projects with ExpressJS,
+                  NestJS, MongoDB, Mongoose.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Worked with cloud infrastructure for application deployment,
+                  including Google Cloud Platform and Amazon Web Services.
+                </li>
+              </ul>
+            </div>
+
+            <div
+              className={`${
+                activeTab === 5
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
+              }`}
+            >
+              <h3 className="text-[#ccd6f6] text-xl">
+                Cyber Security Researcher (Intern){" "}
+                <span className="text-[#64ffda]">
+                  @{" "}
+                  <Link href="https://kit.edu.kh">
+                    <a
+                      target="_blank"
+                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Kirirom Institute of Technology
+                    </a>
+                  </Link>
+                </span>
+              </h3>
+              <p className="font-mono text-[#a8b2d1]">
+                September 2019 - September 2021
+              </p>
+              <ul className="pt-3">
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Performed audit on the internal network infrastructure and
+                  provided full detail reports of the result to improve internal
+                  network security.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Implemented Graylog SIEM on the internal network to detect
+                  potential attacks that may be occuring on the network.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Developed contents for Cyber Security Bootcamp and Advanced
+                  Cyber Security Bootcamp.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Researched on Incident Response, Network Defense and SIEM
+                  tools.
                 </li>
               </ul>
             </div>
