@@ -144,7 +144,7 @@ const Navbar = () => {
               </Link>
             </motion.li>
             <li>
-              <Link href="assets/sopagnarith-cv.pdf">
+              <Link href="assets/sopagnarith-seam-cv.pdf">
                 <motion.button
                   initial={{ opacity: 0, y: -100 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -272,7 +272,7 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ol>
-              <Link href="assets/sopagnarith-cv.pdf">
+              <Link href="assets/sopagnarith-seam-cv.pdf">
                 <button className="w-40 border border-[#64ffda] text-[#64ffda] hover:bg-[rgba(100,255,218,0.1)] duration-300">
                   Resume
                 </button>
