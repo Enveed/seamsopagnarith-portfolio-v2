@@ -20,7 +20,7 @@ export const Project = () => {
         <div className="grid gap-4 pt-8 text-sm grid-cols-project-grid md:grid-cols-project-grid-md">
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -32,7 +32,7 @@ export const Project = () => {
                     <AiOutlineFolder size={50} className="fill-[#64ffda]" />
                   </div>
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Prudential WebPOS
+                    Insurance Selling Platform (Cambodia)
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
                     An insurance selling platform that help eases agents&apos;
@@ -41,9 +41,9 @@ export const Project = () => {
                   </p>
                 </main>
                 <footer>
-                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>MUI</li>
+                    <li>Material-UI</li>
                     <li>Context</li>
                     <li>MongoDB</li>
                     <li>MySQL</li>
@@ -55,7 +55,42 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.1 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/pmli/eposweb">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Insurance Selling Platform (Myanmar)
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An insurance selling platform that help eases agents&apos;
+                    bothersome process; by having everything packaged into a
+                    single platform.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ReactJS</li>
+                    <li>Material-UI</li>
+                    <li>Context</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -67,17 +102,17 @@ export const Project = () => {
                     <AiOutlineFolder size={50} className="fill-[#64ffda]" />
                   </div>
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Prudential Lead Management
+                    Client Tracking Platform (Cambodia)
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    An inhouse application for agents to keep track of leads
-                    that may be converted into potential sales.
+                    An inhouse application for agents to keep track of potential
+                    customers that may be converted into sales.
                   </p>
                 </main>
                 <footer>
-                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>MUI</li>
+                    <li>Material-UI</li>
                     <li>Zustand</li>
                     <li>MongoDB</li>
                   </ul>
@@ -88,7 +123,73 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.2 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/pmli/lead">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Client Tracking Platform (Myanmar)
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An inhouse application for agents to keep track of potential
+                    customers that may be converted into sales.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ReactJS</li>
+                    <li>Material-UI</li>
+                    <li>Zustand</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/billpayment/">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Payment Link Generator
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An app to generate payment link for customers to pay for
+                    their insurance policies without the need of an agent.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ReactJS</li>
+                    <li>Context-API</li>
+                    <li>Material-UI</li>
+                    <li>REST-API</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -108,10 +209,12 @@ export const Project = () => {
                   </p>
                 </main>
                 <footer>
-                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>React Native</li>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>React-Native</li>
+                    <li>NativeBase</li>
+                    <li>Redux-saga</li>
+                    <li>Firebase</li>
                     <li>ExpressJS</li>
-                    <li>AWS</li>
                     <li>FastAPI</li>
                   </ul>
                 </footer>
@@ -121,7 +224,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.3 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -141,11 +244,11 @@ export const Project = () => {
                   </p>
                 </main>
                 <footer>
-                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>NuxtJS</li>
+                    <li>VueX</li>
                     <li>ExpressJS</li>
                     <li>AWS</li>
-                    <li>FastAPI</li>
                   </ul>
                 </footer>
               </a>
@@ -154,40 +257,7 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.4 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://enveed-camp.onrender.com">
-              <a target="_blank">
-                <main>
-                  <div className="pb-4">
-                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                  </div>
-                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    RithCamp
-                  </h3>
-                  <p className="text-[#a8b2d1] pb-2">
-                    A simple camping website, built to demonstrate the usage of
-                    Express, MongoDB and EJS.
-                  </p>
-                </main>
-                <footer>
-                  <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>ExpressJS</li>
-                    <li>MongoDB</li>
-                    <li>EJS</li>
-                    <li>Cloudinary</li>
-                  </ul>
-                </footer>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.5 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
@@ -208,7 +278,7 @@ export const Project = () => {
                     </p>
                   </main>
                   <footer>
-                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                       <li>NextJS</li>
                       <li>Tailwind CSS</li>
                       <li>Framer Motion</li>
@@ -221,101 +291,33 @@ export const Project = () => {
 
           <motion.div
             initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.6 } }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
             whileHover={{ scale: 1.05 }}
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <Link href="https://play.google.com/store/apps/details?id=com.kit.chatlearn">
+            <Link href="https://enveed-camp.onrender.com">
               <a target="_blank">
-                <div className="flex h-full justify-between flex-col">
-                  <main>
-                    <div className="pb-4">
-                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                    </div>
-                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                      Chat App with Grammar Correction
-                    </h3>
-                    <p className="text-[#a8b2d1] pb-2">
-                      Building a peer-to-peer chat app with Grammar Correction
-                    </p>
-                  </main>
-                  <footer>
-                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                      <li>GunJS</li>
-                      <li>FastAPI</li>
-                      <li>T5 Model</li>
-                    </ul>
-                  </footer>
-                </div>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.7 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://pagnarithseam18.github.io">
-              <a target="_blank">
-                <div className="flex h-full justify-between flex-col">
-                  <main>
-                    <div className="pb-4">
-                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                    </div>
-                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                      Portfolio Website V1
-                    </h3>
-                    <p className="text-[#a8b2d1] pb-2">
-                      My first portfolio website that I built in 2019 with pure
-                      HTML, CSS and JS and hosted on GitHub Pages.
-                    </p>
-                  </main>
-                  <footer>
-                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JavaScript</li>
-                    </ul>
-                  </footer>
-                </div>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 2.8 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://github.com/Enveed/data-portfolio">
-              <a target="_blank">
-                <div className="flex h-full justify-between flex-col">
-                  <main>
-                    <div className="pb-4">
-                      <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                    </div>
-                    <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                      Data Portfolio
-                    </h3>
-                    <p className="text-[#a8b2d1] pb-2">
-                      A portfolio for demonstrating my ability to interpret,
-                      organize and present data.
-                    </p>
-                  </main>
-                  <footer>
-                    <ul className="flex space-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                      <li>PowerBI</li>
-                      <li>SQL</li>
-                      <li>Python</li>
-                    </ul>
-                  </footer>
-                </div>
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    RithCamp
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">
+                    A simple camping website, built to demonstrate the usage of
+                    Express, MongoDB and EJS.
+                  </p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                    <li>EJS</li>
+                    <li>Cloudinary</li>
+                  </ul>
+                </footer>
               </a>
             </Link>
           </motion.div>
