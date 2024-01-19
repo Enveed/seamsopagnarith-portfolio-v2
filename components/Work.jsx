@@ -109,19 +109,23 @@ function Work() {
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Mainly responsible for developing the frontend of insurance
-                  selling platform for agents, enabling the company to hit
+                  selling platform for agents using ReactJS, Context API,
+                  Material UI, AngularJS, Axios, enabling the company to hit
                   target KPIs in two LBUs and the project to win Project of the
                   Year for 2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developing and maintaining “dynamic” frontend solutions with
-                  ReactJS, Context API, Material UI, AngularJS, Axios, to enable
-                  faster delivery and more flexibility in accordance with
-                  business requirements.
+                  Mainly responsible for developing the frontend of various
+                  projects such as: Client Tracking Platform and Payment Link
+                  Generator by using ReactJS, Context API, Zustand, Material UI,
+                  Axios with “dynamic” approach in mind to enable faster
+                  delivery and more flexibility in accordance with business
+                  requirements.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Maintain deployment setup of various in-house applications
-                  with Jenkins, Kubernetes, SQL Server, MongoDB.
+                  with Jenkins, Kubernetes, SQL Server, MongoDB, reducing
+                  deployment time and manual effort
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Help supervise internal frontend engineering team, providing
@@ -163,8 +167,9 @@ function Work() {
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Developed and maintained the company&apos;s flagship mobile
-                  application using React Native, NativeBase, Redux, Redux-saga,
-                  creating a high-quality user experience.
+                  application using React Native, NativeBase, Redux-saga and the
+                  company&apos;s flagship web application using NuxtJS, VueX,
+                  Vuetfiy, creating a high-quality user experience.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Contributed to the development and deployment of a
@@ -174,12 +179,7 @@ function Work() {
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Worked with Amazon Web Service services such as: EC2, S3,
                   Cloudwatch…etc., to host and maintain the company&apos;s web
-                  infrastructure.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented and maintained testing strategies such as: unit
-                  test (Jest) and load test (k6.io), to ensure the robustness of
-                  the mobile application and backend services.
+                  infrastructure, improving system reliability and scalability.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Worked closely with the QA team to identify and address bugs
@@ -212,13 +212,15 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Designed and developed customers&apos; websites using
-                  Wordpress, HTML, CSS to enable faster delivery in accordance
-                  with business&apos; requirements.
+                  Designed and developed customers&apos; websites such as:
+                  Diamond Bedding Asia, Leopard Business Consultancy…etc. by
+                  using Wordpress, HTML, CSS to enable faster delivery in
+                  accordance with business requirements.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Deployed and maintained customers&apos; websites with
-                  OVHCloud, infomaniak, CPanel.
+                  OVHCloud, infomaniak, CPanel, enhancing scalability and
+                  reducing operational costs.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Assisted sales staff in communicating with customers to better
