@@ -6,10 +6,10 @@ function Work() {
   const [activeTab, setActiveTab] = useState(1);
   const indicatorMovementMd = [
     "sm:translate-y-[0px]",
-    "sm:translate-y-[60px]",
-    "sm:translate-y-[120px]",
-    "sm:translate-y-[180px]",
+    "sm:translate-y-[80px]",
+    "sm:translate-y-[160px]",
     "sm:translate-y-[240px]",
+    "sm:translate-y-[320px]",
   ];
   const indicatorMovement = [
     "translate-x-[0px]",
@@ -38,7 +38,7 @@ function Work() {
               onClick={() => setActiveTab(1)}
               className={`${
                 activeTab === 1 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
               Prudential Cambodia
             </button>
@@ -46,37 +46,38 @@ function Work() {
               onClick={() => setActiveTab(2)}
               className={`${
                 activeTab === 2 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Jobify Cambodia
+              Kirirom Institute of Technology
             </button>
             <button
               onClick={() => setActiveTab(3)}
               className={`${
                 activeTab === 3 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Sky Asia Network
+              {" "}
+              Kirirom Institute of Technology
             </button>
             <button
               onClick={() => setActiveTab(4)}
               className={`${
                 activeTab === 4 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Kirirom Institute
+              Kirirom Institute of Technology
             </button>
             <button
               onClick={() => setActiveTab(5)}
               className={`${
                 activeTab === 5 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[60px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
+              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Kirirom Institute
+              Sky Asia Network
             </button>
 
             <div
-              className={`absolute w-[120px] h-[2px] sm:h-[60px] sm:w-[2px] bottom-0 top-auto sm:top-0 sm:bottom-auto left-0 z-10 bg-[#64ffda] ${
+              className={`absolute w-[120px] h-[2px] sm:h-[80px] sm:w-[2px] bottom-0 top-auto sm:top-0 sm:bottom-auto left-0 z-10 bg-[#64ffda] ${
                 indicatorMovement[activeTab - 1]
               } sm:translate-x-0 translate-y-0 ${
                 indicatorMovementMd[activeTab - 1]
@@ -111,16 +112,58 @@ function Work() {
                   Mainly responsible for developing the frontend of insurance
                   selling platform for agents using ReactJS, Context API,
                   Material UI, AngularJS, Axios, enabling the company to hit
-                  target KPIs in two LBUs and the project to win Project of the
-                  Year for 2023.
+                  target KPIs in two LBUs ({" "}
+                  <Link href="https://prueshop.prudential.com.kh/eposweb">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Cambodia
+                    </a>
+                  </Link>{" "}
+                  and{" "}
+                  <Link href="https://prueshop.prudential.com.kh/pmli/eposweb">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Myanmar
+                    </a>
+                  </Link>
+                  ) and the project to win Project of the Year for 2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Mainly responsible for developing the frontend of various
-                  projects such as: Client Tracking Platform and Payment Link
-                  Generator by using ReactJS, Context API, Zustand, Material UI,
-                  Axios with “dynamic” approach in mind to enable faster
-                  delivery and more flexibility in accordance with business
-                  requirements.
+                  projects such as: Client Tracking Platform ({" "}
+                  <Link href="https://prueshop.prudential.com.kh/lead">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Cambodia
+                    </a>
+                  </Link>{" "}
+                  and
+                  <Link href="https://prueshop.prudential.com.kh/pmli/lead">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Myanmar
+                    </a>
+                  </Link>
+                  ) and{" "}
+                  <Link href="https://prueshop.prudential.com.kh/billpayment">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Payment Link Generator
+                    </a>
+                  </Link>{" "}
+                  by using ReactJS, Context API, Zustand, Material UI, Axios
+                  with “dynamic” approach in mind to enable faster delivery and
+                  more flexibility in accordance with business requirements
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Maintain deployment setup of various in-house applications
@@ -148,15 +191,15 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Fullstack Developer{" "}
+                Full-stack Developer{" "}
                 <span className="text-[#64ffda]">
                   @{" "}
-                  <Link href="https://jobify.works">
+                  <Link href="https://kit.edu.kh">
                     <a
                       target="_blank"
                       className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                     >
-                      Jobify Cambodia
+                      Kirirom Institute of Technology
                     </a>
                   </Link>
                 </span>
@@ -166,10 +209,26 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed and maintained the company&apos;s flagship mobile
-                  application using React Native, NativeBase, Redux-saga and the
-                  company&apos;s flagship web application using NuxtJS, VueX,
-                  Vuetfiy, creating a high-quality user experience.
+                  Developed and maintained the{" "}
+                  <Link href="https://play.google.com/store/apps/details?id=com.jobifycambodia">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Jobify Cambodia&apos;s flagship mobile application
+                    </a>
+                  </Link>{" "}
+                  using React Native, NativeBase, Redux-saga and{" "}
+                  <Link href="https://jobify.works">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Jobify Cambodia&apos;s flagship web application
+                    </a>
+                  </Link>{" "}
+                  using NuxtJS, VueX, Vuetfiy, creating a high-quality user
+                  experience.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Contributed to the development and deployment of a
@@ -178,8 +237,16 @@ function Work() {
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Worked with Amazon Web Service services such as: EC2, S3,
-                  Cloudwatch…etc., to host and maintain the company&apos;s web
-                  infrastructure, improving system reliability and scalability.
+                  Cloudwatch…etc., to host and maintain{" "}
+                  <Link href="https://jobify.works">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Jobify Cambodia&apos;s web infrastructure
+                    </a>
+                  </Link>
+                  , improving system reliability and scalability.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Worked closely with the QA team to identify and address bugs
@@ -191,52 +258,6 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none [&>*]:hidden"
-              }`}
-            >
-              <h3 className="text-[#ccd6f6] text-xl">
-                Webmaster{" "}
-                <span className="text-[#64ffda]">
-                  @{" "}
-                  <Link href="https://skyasianetwork.com">
-                    <a
-                      target="_blank"
-                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Sky Asia Network
-                    </a>
-                  </Link>
-                </span>
-              </h3>
-              <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
-              <ul className="pt-3">
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Designed and developed customers&apos; websites such as:
-                  Diamond Bedding Asia, Leopard Business Consultancy…etc. by
-                  using Wordpress, HTML, CSS to enable faster delivery in
-                  accordance with business requirements.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Deployed and maintained customers&apos; websites with
-                  OVHCloud, infomaniak, CPanel, enhancing scalability and
-                  reducing operational costs.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Assisted sales staff in communicating with customers to better
-                  understand their requirements and to update progress in a
-                  timely manner.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Assisted company in providing Microsoft Support services to
-                  customers.
-                </li>
-              </ul>
-            </div>
-
-            <div
-              className={`${
-                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -277,7 +298,7 @@ function Work() {
 
             <div
               className={`${
-                activeTab === 5
+                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -316,6 +337,68 @@ function Work() {
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Researched on Incident Response, Network Defense and SIEM
                   tools.
+                </li>
+              </ul>
+            </div>
+
+            <div
+              className={`${
+                activeTab === 5
+                  ? "h-auto opacity-100 transition-opacity duration-300 block"
+                  : "h-0 opacity-0 transition-none [&>*]:hidden"
+              }`}
+            >
+              <h3 className="text-[#ccd6f6] text-xl">
+                Webmaster{" "}
+                <span className="text-[#64ffda]">
+                  @{" "}
+                  <Link href="https://skyasianetwork.com">
+                    <a
+                      target="_blank"
+                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Sky Asia Network
+                    </a>
+                  </Link>
+                </span>
+              </h3>
+              <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
+              <ul className="pt-3">
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Designed and developed customers&apos; websites such as:
+                  <Link href="https://diamondbedding.asia">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Diamond Bedding Asia
+                    </a>
+                  </Link>
+                  ,{" "}
+                  <Link href="https://www.lbcbiz.com">
+                    <a
+                      target="_blank"
+                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
+                    >
+                      Leopard Business Consultancy
+                    </a>
+                  </Link>
+                  …etc. by using Wordpress, HTML, CSS to enable faster delivery
+                  in accordance with business requirements.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Deployed and maintained customers&apos; websites with
+                  OVHCloud, infomaniak, CPanel, enhancing scalability and
+                  reducing operational costs.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Assisted sales staff in communicating with customers to better
+                  understand their requirements and to update progress in a
+                  timely manner.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Assisted company in providing Microsoft Support services to
+                  customers.
                 </li>
               </ul>
             </div>
