@@ -65,14 +65,6 @@ function Work() {
                 activeTab === 4 ? "text-[#64ffda]" : "text-[#8892b0]"
               } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
             >
-              Kirirom Institute of Technology
-            </button>
-            <button
-              onClick={() => setActiveTab(5)}
-              className={`${
-                activeTab === 5 ? "text-[#64ffda]" : "text-[#8892b0]"
-              } min-w-[120px] sm:w-full h-[80px] border-b-2 border-[#233554] shadow-none px-0 sm:px-[20px] py-3 rounded-none transition-all duration-200 text-center sm:border-b-0 sm:border-l-2 sm:text-left sm:min-w-0 hover:bg-[#112240] hover:text-[#64ffda]`}
-            >
               Sky Asia Network
             </button>
 
@@ -93,7 +85,7 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Supervisor Application Development & Support{" "}
+                Senior Supervisor, Application Development & Support{" "}
                 <span className="text-[#64ffda]">
                   @{" "}
                   <Link href="https://www.prudential.com.kh">
@@ -205,7 +197,7 @@ function Work() {
                 </span>
               </h3>
               <p className="font-mono text-[#a8b2d1]">
-                November 2022 - March 2023
+                September 2021 - March 2023
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
@@ -218,39 +210,28 @@ function Work() {
                       Jobify Cambodia&apos;s flagship mobile application
                     </a>
                   </Link>{" "}
-                  using React Native, NativeBase, Redux-saga and{" "}
-                  <Link href="https://jobify.works">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Jobify Cambodia&apos;s flagship web application
-                    </a>
-                  </Link>{" "}
-                  using NuxtJS, VueX, Vuetfiy, creating a high-quality user
-                  experience.
+                  using React Native, NativeBase, Redux-saga, creating a
+                  high-quality user experience.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Contributed to the development and deployment of a
-                  job-matching AI model, resulting in a 50% improvement in
-                  response rate.
+                  Led a team of three developers to build a chat app with
+                  grammar correction feature in a span of 4 months by using
+                  React Native, GunJS, Firebase, FastAPI, Google T5 Model.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Developed and maintained backend for various projects by using
+                  technologies such as: NodeJS, ExpressJS, NestJS, MongoDB,
+                  Mongoose, SQL, Knex...etc.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Worked with Amazon Web Service services such as: EC2, S3,
-                  Cloudwatch…etc., to host and maintain{" "}
-                  <Link href="https://jobify.works">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Jobify Cambodia&apos;s web infrastructure
-                    </a>
-                  </Link>
-                  , improving system reliability and scalability.
+                  Cloudwatch, to host and maintain the web infrastructure,
+                  improving system reliability and scalability.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked closely with the QA team to identify and address bugs
-                  and issues in a timely manner.
+                  Implemented and maintained testing strategies such as: unit
+                  test (Jest) and load test (k6.io), to ensure the robustness of
+                  mobile applications and backend services.
                 </li>
               </ul>
             </div>
@@ -258,47 +239,6 @@ function Work() {
             <div
               className={`${
                 activeTab === 3
-                  ? "h-auto opacity-100 transition-opacity duration-300 block"
-                  : "h-0 opacity-0 transition-none [&>*]:hidden"
-              }`}
-            >
-              <h3 className="text-[#ccd6f6] text-xl">
-                Backend Developer (Intern){" "}
-                <span className="text-[#64ffda]">
-                  @{" "}
-                  <Link href="https://kit.edu.kh">
-                    <a
-                      target="_blank"
-                      className="inline-block after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Kirirom Institute of Technology
-                    </a>
-                  </Link>
-                </span>
-              </h3>
-              <p className="font-mono text-[#a8b2d1]">
-                September 2021 - November 2022
-              </p>
-              <ul className="pt-3">
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Led a team of three developers to build a chat app with
-                  grammar correction feature in a span of 4 months by using
-                  React Native, GunJS, Firebase, FastAPI, Google T5 Model.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Built backend REST API for various projects with ExpressJS,
-                  NestJS, MongoDB, Mongoose.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with cloud infrastructure for application deployment,
-                  including Google Cloud Platform and Amazon Web Services.
-                </li>
-              </ul>
-            </div>
-
-            <div
-              className={`${
-                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
@@ -343,7 +283,7 @@ function Work() {
 
             <div
               className={`${
-                activeTab === 5
+                activeTab === 4
                   ? "h-auto opacity-100 transition-opacity duration-300 block"
                   : "h-0 opacity-0 transition-none [&>*]:hidden"
               }`}
