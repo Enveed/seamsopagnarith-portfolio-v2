@@ -183,7 +183,7 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Full-stack Developer{" "}
+                Full-stack Developer (Intern){" "}
                 <span className="text-[#64ffda]">
                   @{" "}
                   <Link href="https://kit.edu.kh">
