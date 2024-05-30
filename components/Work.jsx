@@ -158,6 +158,20 @@ function Work() {
                   more flexibility in accordance with business requirements
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Work with MongoDB(Atlas, Realm) to improve application
+                  performance, enable more functionalities and enhance real-time
+                  payment synchronization.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Develop and maintain RESTful API with C#(.NET), MongoDB
+                  Driver, .NET Identity for communication between backend and
+                  frontend systems of{" "}
+                  <span className="text-[#64ffda]">
+                    Agent Recruitment Platform
+                  </span>
+                  .
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Maintain deployment setup of various in-house applications
                   with Jenkins, Kubernetes, SQL Server, MongoDB, reducing
                   deployment time and manual effort
@@ -166,11 +180,6 @@ function Work() {
                   Help supervise internal frontend engineering team, providing
                   guidance and pointers to improve team performance and app
                   quality.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Collaborate with BA and PM teams to deliver high-quality
-                  solutions, ensuring adherence to timelines and engineering
-                  standards.
                 </li>
               </ul>
             </div>
