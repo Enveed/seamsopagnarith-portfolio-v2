@@ -43,10 +43,12 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>Material-UI</li>
+                    <li>MUI</li>
                     <li>Context</li>
                     <li>MongoDB</li>
                     <li>MySQL</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
                   </ul>
                 </footer>
               </a>
@@ -78,10 +80,12 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>Material-UI</li>
+                    <li>MUI</li>
                     <li>Context</li>
                     <li>MongoDB</li>
                     <li>MySQL</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
                   </ul>
                 </footer>
               </a>
@@ -112,9 +116,11 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>Material-UI</li>
+                    <li>MUI</li>
                     <li>Zustand</li>
                     <li>MongoDB</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
                   </ul>
                 </footer>
               </a>
@@ -145,9 +151,11 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>Material-UI</li>
+                    <li>MUI</li>
                     <li>Zustand</li>
                     <li>MongoDB</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
                   </ul>
                 </footer>
               </a>
@@ -178,9 +186,11 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>ReactJS</li>
-                    <li>Context-API</li>
-                    <li>Material-UI</li>
-                    <li>REST-API</li>
+                    <li>MUI</li>
+                    <li>Context</li>
+                    <li>C#(.NET)</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
                   </ul>
                 </footer>
               </a>
@@ -212,7 +222,7 @@ export const Project = () => {
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>React-Native</li>
                     <li>NativeBase</li>
-                    <li>Redux-saga</li>
+                    <li>Redux</li>
                     <li>Firebase</li>
                     <li>ExpressJS</li>
                     <li>FastAPI</li>

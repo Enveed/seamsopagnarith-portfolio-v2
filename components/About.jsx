@@ -78,16 +78,16 @@ const About = () => {
                 Material UI
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                React Native
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Zustand
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Playwright
+                Jenkins
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 Kubernetes
+              </li>
+              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
+                C#(.NET)
+              </li>
+              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
+                SQL
               </li>
             </ul>
           </div>

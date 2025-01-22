@@ -101,85 +101,38 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">March 2023 - Present</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Mainly responsible for developing the frontend of insurance
-                  selling platform for agents using ReactJS, Context API,
-                  Material UI, AngularJS, Axios, enabling the company to hit
-                  target KPIs in two LBUs ({" "}
-                  <Link href="https://prueshop.prudential.com.kh/eposweb">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Cambodia
-                    </a>
-                  </Link>{" "}
-                  and{" "}
-                  <Link href="https://prueshop.prudential.com.kh/pmli/eposweb">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Myanmar
-                    </a>
-                  </Link>
-                  ) and the project to win Project of the Year for 2023.
+                  Spearhead the development and maintenance of new POS system
+                  frontend across Cambodia and Myanmar, reducing system downtime
+                  and manual labor by 90% and 70% respectively, enabling the
+                  project to win Project of the Year for 2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Mainly responsible for developing the frontend of various
-                  projects such as: Client Tracking Platform ({" "}
-                  <Link href="https://prueshop.prudential.com.kh/lead">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Cambodia
-                    </a>
-                  </Link>{" "}
-                  and
-                  <Link href="https://prueshop.prudential.com.kh/pmli/lead">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Myanmar
-                    </a>
-                  </Link>
-                  ) and{" "}
-                  <Link href="https://prueshop.prudential.com.kh/billpayment">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Payment Link Generator
-                    </a>
-                  </Link>{" "}
-                  by using ReactJS, Context API, Zustand, Material UI, Axios
-                  with “dynamic” approach in mind to enable faster delivery and
-                  more flexibility in accordance with business requirements
+                  Design and develop frontend applications to streamline lead
+                  management, policy servicing and customer servicing across
+                  Cambodia and Myanmar with “dynamic configuration”, allowing
+                  for better adaptability, flexibility and scalability.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Work with MongoDB(Atlas, Realm) to improve application
-                  performance, enable more functionalities and enhance real-time
-                  payment synchronization.
+                  Implement integration of frontend applications with core
+                  system and Cambodia and Myanmar bank partners, resulting in
+                  fully assessed customer information and seamless data
+                  exchange.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Develop and maintain RESTful API with C#(.NET), MongoDB
-                  Driver, .NET Identity for communication between backend and
-                  frontend systems of{" "}
-                  <span className="text-[#64ffda]">
-                    Agent Recruitment Platform
-                  </span>
-                  .
+                  Contribute to the convergence of company legacy systems to
+                  modern cloud-based solutions, reducing operational costs by
+                  65% and resulting in better system reliability and
+                  performance.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Maintain deployment setup of various in-house applications
-                  with Jenkins, Kubernetes, SQL Server, MongoDB, reducing
-                  deployment time and manual effort
+                  Collaborate with a team model of contract staff, local staff
+                  and overseas staff to ensure the alignment of the requirements
+                  and expectations and to manage the deliverables and timeline,
+                  ensuring better customer experience and faster time-to-market.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Help supervise internal frontend engineering team, providing
-                  guidance and pointers to improve team performance and app
-                  quality.
+                  Provide mentorship to the frontend engineering team, fostering
+                  a culture of knowledge sharing and continuous improvement.
                 </li>
               </ul>
             </div>
@@ -210,37 +163,32 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed and maintained the{" "}
-                  <Link href="https://play.google.com/store/apps/details?id=com.jobifycambodia">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Jobify Cambodia&apos;s flagship mobile application
-                    </a>
-                  </Link>{" "}
-                  using React Native, NativeBase, Redux-saga, creating a
-                  high-quality user experience.
+                  Contributed in the development of sponsored company job portal
+                  mobile application that streamlined job listings, job
+                  applications and candidate tracking.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Led a team of three developers to build a chat app with
-                  grammar correction feature in a span of 4 months by using
-                  React Native, GunJS, Firebase, FastAPI, Google T5 Model.
+                  Assisted in the development of sponsored company job matching
+                  AI model, increasing the reliability rate by 75%.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed and maintained backend for various projects by using
-                  technologies such as: NodeJS, ExpressJS, NestJS, MongoDB,
-                  Mongoose, SQL, Knex...etc.
+                  Led a team of 3 software engineers in designing, developing
+                  and deploying a real-time chat application with writing
+                  assistant in a span of 3 months.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with Amazon Web Service services such as: EC2, S3,
-                  Cloudwatch, to host and maintain the web infrastructure,
-                  improving system reliability and scalability.
+                  Implemented backend services for various projects using
+                  ExpressJS, NestJS, MongoDB and SQL for efficient data storage
+                  and retrieval.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented and maintained testing strategies such as: unit
-                  test (Jest) and load test (k6.io), to ensure the robustness of
-                  mobile applications and backend services.
+                  Managed and maintained AWS infrastructure, including EC2, S3,
+                  and Cloudwatch, ensuring high availability and scalability for
+                  applications.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Partnered with QA teams to identify and resolve defects and to
+                  implement effective testing strategies.
                 </li>
               </ul>
             </div>
@@ -271,21 +219,26 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Performed audit on the internal network infrastructure and
-                  provided full detail reports of the result to improve internal
-                  network security.
+                  Participated in security audits, reviewing system
+                  configurations, access controls, and encryption methods for
+                  compliance with industry best practices.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented Graylog SIEM on the internal network to detect
-                  potential attacks that may be occuring on the network.
+                  Assisted in configuring and maintaining Graylog SIEM to
+                  monitor security events and detect anomalies.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed contents for Cyber Security Bootcamp and Advanced
-                  Cyber Security Bootcamp.
+                  Analyzed network traffic using Wireshark to detect and
+                  investigate malicious activities or suspicious behavior.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Researched on Incident Response, Network Defense and SIEM
-                  tools.
+                  Collaborated with team members to evaluate SIEM tools,
+                  comparing event correlation, detection capabilities, and ease
+                  of use.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Contributed to training and awareness sessions on incident
+                  handling procedures for non-technical staff.
                 </li>
               </ul>
             </div>
@@ -314,40 +267,28 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Designed and developed customers&apos; websites such as:
-                  <Link href="https://diamondbedding.asia">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Diamond Bedding Asia
-                    </a>
-                  </Link>
-                  ,{" "}
-                  <Link href="https://www.lbcbiz.com">
-                    <a
-                      target="_blank"
-                      className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
-                    >
-                      Leopard Business Consultancy
-                    </a>
-                  </Link>
-                  …etc. by using Wordpress, HTML, CSS to enable faster delivery
-                  in accordance with business requirements.
+                  Designed and implemented responsive WordPress websites for
+                  diverse clients.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Deployed and maintained customers&apos; websites with
-                  OVHCloud, infomaniak, CPanel, enhancing scalability and
-                  reducing operational costs.
+                  Manage and maintain clients&apos; WordPress websites, ensuring
+                  optimal performance and uptime.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Assisted sales staff in communicating with customers to better
-                  understand their requirements and to update progress in a
-                  timely manner.
+                  Improved websites&apos; SEO through structured data, metadata,
+                  and optimized media.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Assisted company in providing Microsoft Support services to
-                  customers.
+                  Perform regular backups, updates, and troubleshoot technical
+                  issues.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Collaborated with content teams to upload, edit, and organize
+                  content effectively.
+                </li>
+                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
+                  Provided technical consultations to clients, ensuring clarity
+                  in timeline and deliverables.
                 </li>
               </ul>
             </div>

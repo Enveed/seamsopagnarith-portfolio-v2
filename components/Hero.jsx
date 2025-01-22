@@ -40,11 +40,14 @@ const Hero = () => {
           viewport={{ once: true }}
           className="max-w-lg font-sans"
         >
-          Enthusiastic and detail-oriented Software Engineer with a passion for
-          creating responsive and user-friendly web applications. Proficient in
-          modern frontend technologies, with a strong foundation in React. Adept
-          at working with different technologies to deliver high-quality
-          solutions.
+          Versatile and results-driven Software Engineer with extensive
+          expertise in the modern JavaScript ecosystem. Skilled in building
+          dynamic, user-focused web applications and scalable front-end
+          architectures. Adept at solving complex technical challenges and
+          collaborating across teams to deliver high-quality applications. While
+          deeply experienced in the JavaScript ecosystem, I am passionate about
+          learning and working with diverse technologies to drive innovation and
+          meet evolving business needs.
         </motion.p>
         <Link href="#contact">
           <motion.a
