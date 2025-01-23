@@ -32,12 +32,12 @@ export const Project = () => {
                     <AiOutlineFolder size={50} className="fill-[#64ffda]" />
                   </div>
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Insurance Selling Platform (Cambodia)
+                    Insurance Selling Platform
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
                     An insurance selling platform that help eases agents&apos;
-                    bothersome process; by having everything packaged into a
-                    single platform.
+                    bothersome process; by having everything automated and
+                    packaged into a single platform.
                   </p>
                 </main>
                 <footer>
@@ -47,78 +47,6 @@ export const Project = () => {
                     <li>Context</li>
                     <li>MongoDB</li>
                     <li>MySQL</li>
-                    <li>Kubernetes</li>
-                    <li>Jenkins</li>
-                  </ul>
-                </footer>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://prueshop.prudential.com.kh/pmli/eposweb">
-              <a target="_blank">
-                <main>
-                  <div className="pb-4">
-                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                  </div>
-                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Insurance Selling Platform (Myanmar)
-                  </h3>
-                  <p className="text-[#a8b2d1] pb-2">
-                    An insurance selling platform that help eases agents&apos;
-                    bothersome process; by having everything packaged into a
-                    single platform.
-                  </p>
-                </main>
-                <footer>
-                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>ReactJS</li>
-                    <li>MUI</li>
-                    <li>Context</li>
-                    <li>MongoDB</li>
-                    <li>MySQL</li>
-                    <li>Kubernetes</li>
-                    <li>Jenkins</li>
-                  </ul>
-                </footer>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://prueshop.prudential.com.kh/lead">
-              <a target="_blank">
-                <main>
-                  <div className="pb-4">
-                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                  </div>
-                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Client Tracking Platform (Cambodia)
-                  </h3>
-                  <p className="text-[#a8b2d1] pb-2">
-                    An inhouse application for agents to keep track of potential
-                    customers that may be converted into sales.
-                  </p>
-                </main>
-                <footer>
-                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>ReactJS</li>
-                    <li>MUI</li>
-                    <li>Zustand</li>
-                    <li>MongoDB</li>
                     <li>Kubernetes</li>
                     <li>Jenkins</li>
                   </ul>
@@ -141,7 +69,7 @@ export const Project = () => {
                     <AiOutlineFolder size={50} className="fill-[#64ffda]" />
                   </div>
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    Client Tracking Platform (Myanmar)
+                    Client Tracking Platform
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
                     An inhouse application for agents to keep track of potential
@@ -154,6 +82,38 @@ export const Project = () => {
                     <li>MUI</li>
                     <li>Zustand</li>
                     <li>MongoDB</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/sale-portal/">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Sale Portal
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>C#(.NET)</li>
+                    <li>Bootstrap</li>
+                    <li>jQuery</li>
+                    <li>SQL</li>
                     <li>Kubernetes</li>
                     <li>Jenkins</li>
                   </ul>
@@ -179,8 +139,9 @@ export const Project = () => {
                     Payment Link Generator
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    An app to generate payment link for customers to pay for
-                    their insurance policies without the need of an agent.
+                    A platform that allows customers to pay for their insurance
+                    policy via Cambodia&apos;s most popular payment options,
+                    from anywhere and anytime without the need of an agent.
                   </p>
                 </main>
                 <footer>
@@ -189,6 +150,70 @@ export const Project = () => {
                     <li>MUI</li>
                     <li>Context</li>
                     <li>C#(.NET)</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/sale-portal/">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Agent Recruitment Portal
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>React</li>
+                    <li>MUI</li>
+                    <li>C#(.NET)</li>
+                    <li>MongoDB</li>
+                    <li>Kubernetes</li>
+                    <li>Jenkins</li>
+                  </ul>
+                </footer>
+              </a>
+            </Link>
+          </motion.div>
+
+          <motion.div
+            initial={{ y: 30, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
+            whileHover={{ scale: 1.05 }}
+            viewport={{ once: true }}
+            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
+          >
+            <Link href="https://prueshop.prudential.com.kh/sale-portal/">
+              <a target="_blank">
+                <main>
+                  <div className="pb-4">
+                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
+                  </div>
+                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
+                    Agent Recruitment Admin Portal
+                  </h3>
+                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                </main>
+                <footer>
+                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
+                    <li>React</li>
+                    <li>MUI</li>
+                    <li>C#(.NET)</li>
+                    <li>MongoDB</li>
                     <li>Kubernetes</li>
                     <li>Jenkins</li>
                   </ul>
@@ -295,39 +320,6 @@ export const Project = () => {
                     </ul>
                   </footer>
                 </div>
-              </a>
-            </Link>
-          </motion.div>
-
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1, transition: { delay: 1 } }}
-            whileHover={{ scale: 1.05 }}
-            viewport={{ once: true }}
-            className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
-          >
-            <Link href="https://enveed-camp.onrender.com">
-              <a target="_blank">
-                <main>
-                  <div className="pb-4">
-                    <AiOutlineFolder size={50} className="fill-[#64ffda]" />
-                  </div>
-                  <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
-                    RithCamp
-                  </h3>
-                  <p className="text-[#a8b2d1] pb-2">
-                    A simple camping website, built to demonstrate the usage of
-                    Express, MongoDB and EJS.
-                  </p>
-                </main>
-                <footer>
-                  <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>ExpressJS</li>
-                    <li>MongoDB</li>
-                    <li>EJS</li>
-                    <li>Cloudinary</li>
-                  </ul>
-                </footer>
               </a>
             </Link>
           </motion.div>
