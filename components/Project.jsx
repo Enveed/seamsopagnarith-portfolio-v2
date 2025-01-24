@@ -35,9 +35,10 @@ export const Project = () => {
                     Insurance Selling Platform
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    An insurance selling platform that help eases agents&apos;
-                    bothersome process; by having everything automated and
-                    packaged into a single platform.
+                    A platform that aims to empower insurance agents in managing
+                    policy applications and client interactions. This system
+                    enables agents to quickly process insurance applications,
+                    track their status, and deliver seamless customer service.
                   </p>
                 </main>
                 <footer>
@@ -72,8 +73,9 @@ export const Project = () => {
                     Client Tracking Platform
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    An inhouse application for agents to keep track of potential
-                    customers that may be converted into sales.
+                    A specialized solution designed to streamline the process of
+                    capturing, tracking, nurturing, and converting leads into
+                    loyal policyholders.
                   </p>
                 </main>
                 <footer>
@@ -106,7 +108,12 @@ export const Project = () => {
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
                     Sale Portal
                   </h3>
-                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                  <p className="text-[#a8b2d1] pb-2">
+                    A data-driven focused platform that helps agents optimize
+                    their strategies, close more deals, and achieve their sales
+                    targets efficiently by providing deep insights into their
+                    performance.
+                  </p>
                 </main>
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
@@ -139,9 +146,9 @@ export const Project = () => {
                     Payment Link Generator
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    A platform that allows customers to pay for their insurance
+                    A gateway that allows customers to pay for their insurance
                     policy via Cambodia&apos;s most popular payment options,
-                    from anywhere and anytime without the need of an agent.
+                    reducing the risk of missed deadlines and policy lapses.
                   </p>
                 </main>
                 <footer>
@@ -165,7 +172,7 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <Link href="https://prueshop.prudential.com.kh/sale-portal/">
+            <Link href="https://prueshop.prudential.com.kh/pv-form/">
               <a target="_blank">
                 <main>
                   <div className="pb-4">
@@ -174,7 +181,13 @@ export const Project = () => {
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
                     Agent Recruitment Portal
                   </h3>
-                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                  <p className="text-[#a8b2d1] pb-2">
+                    A user-friendly application that helps make the recruitment
+                    process smooth and efficient for aspiring insurance agents.
+                    The portal allows individuals to quickly submit their
+                    applications and necessary documents without the hassle of
+                    complicated procedures.
+                  </p>
                 </main>
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
@@ -197,8 +210,8 @@ export const Project = () => {
             viewport={{ once: true }}
             className="flex group justify-between flex-col bg-[#112240] shadow-2xl p-6 rounded-md cursor-pointer group"
           >
-            <Link href="https://prueshop.prudential.com.kh/sale-portal/">
-              <a target="_blank">
+            <Link href="">
+              <a target="">
                 <main>
                   <div className="pb-4">
                     <AiOutlineFolder size={50} className="fill-[#64ffda]" />
@@ -206,7 +219,13 @@ export const Project = () => {
                   <h3 className="text-[#ccd6f6] group-hover:text-[#64ffda] text-lg pb-2">
                     Agent Recruitment Admin Portal
                   </h3>
-                  <p className="text-[#a8b2d1] pb-2">lorem ipsum.</p>
+                  <p className="text-[#a8b2d1] pb-2">
+                    An internal centralized portal designed to manage and
+                    oversee all recruitment submissions for insurance agents.
+                    This portal provides administrators with the tools they need
+                    to review, track, and manage agent applications in a
+                    streamlined and organized manner.
+                  </p>
                 </main>
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
@@ -239,8 +258,9 @@ export const Project = () => {
                     Jobify Mobile App
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    A job matching platform to improve the livelihood of IT
-                    workers in Cambodia.
+                    A mobile application that aims to empower job seekers by
+                    providing personalized recommendations and efficient job
+                    matching with the power of AI.
                   </p>
                 </main>
                 <footer>
@@ -274,8 +294,9 @@ export const Project = () => {
                     Jobify Web App
                   </h3>
                   <p className="text-[#a8b2d1] pb-2">
-                    A job matching platform to improve the livelihood of IT
-                    workers in Cambodia.
+                    A job matching platform that acts as an intermediary between
+                    job seekers and potential employers, easing the hiring
+                    process for both parties.
                   </p>
                 </main>
                 <footer>
@@ -284,6 +305,8 @@ export const Project = () => {
                     <li>VueX</li>
                     <li>ExpressJS</li>
                     <li>AWS</li>
+                    <li>Nginx</li>
+                    <li>GoDaddy</li>
                   </ul>
                 </footer>
               </a>
@@ -309,7 +332,8 @@ export const Project = () => {
                     </h3>
                     <p className="text-[#a8b2d1] pb-2">
                       Second iteration of my portfolio website that I built with
-                      Next.js and hosted on Heroku
+                      Next.js and hosted on Netlify. This website aims to help
+                      people understand more about my professional background.
                     </p>
                   </main>
                   <footer>
@@ -317,6 +341,8 @@ export const Project = () => {
                       <li>NextJS</li>
                       <li>Tailwind CSS</li>
                       <li>Framer Motion</li>
+                      <li>Github</li>
+                      <li>Netlify</li>
                     </ul>
                   </footer>
                 </div>
