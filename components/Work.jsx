@@ -271,7 +271,7 @@ function Work() {
                   and optimized media.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Perform regular backups, updates, and troubleshoot technical
+                  Performed regular backups, updates, and troubleshoot technical
                   issues.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
