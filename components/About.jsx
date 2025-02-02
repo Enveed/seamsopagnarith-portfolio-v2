@@ -75,7 +75,7 @@ const About = () => {
                 ReactJS
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Material UI
+                C#(.NET)
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 Jenkins
@@ -84,7 +84,7 @@ const About = () => {
                 Kubernetes
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                C#(.NET)
+                MongoDB
               </li>
               <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
                 SQL

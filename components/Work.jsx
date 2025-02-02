@@ -101,38 +101,31 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">March 2023 - Present</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Spearhead the development and maintenance of new POS system
-                  frontend across Cambodia and Myanmar, reducing system downtime
-                  and manual labor by 90% and 70% respectively, enabling the
-                  project to win Project of the Year for 2023.
+                  Spearhead the development of a new POS system frontend for
+                  Cambodia and Myanmar, reducing system downtime and manual work
+                  by 90% and 70%, respectively. The project won Project of the
+                  Year for 2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Design and develop frontend applications to streamline lead
-                  management, policy servicing and customer servicing across
-                  Cambodia and Myanmar with “dynamic configuration”, allowing
-                  for better adaptability, flexibility and scalability.
+                  Develop applications for lead management, policy servicing,
+                  and customer servicing in Cambodia and Myanmar, with dynamic
+                  configuration practice.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implement integration of frontend applications with core
-                  system and Cambodia and Myanmar bank partners, resulting in
-                  fully assessed customer information and seamless data
-                  exchange.
+                  Integrate applications with core system and banking partners,
+                  resulting in smooth data exchange and complete customer
+                  information.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Contribute to the convergence of company legacy systems to
-                  modern cloud-based solutions, reducing operational costs by
-                  65% and resulting in better system reliability and
+                  Contribute to the decommission of legacy systems, cutting
+                  operational costs by 65% while enhancing reliability and
                   performance.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Collaborate with a team model of contract staff, local staff
-                  and overseas staff to ensure the alignment of the requirements
-                  and expectations and to manage the deliverables and timeline,
-                  ensuring better customer experience and faster time-to-market.
+                  Oversee deployment of applications from Staging to Production.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Provide mentorship to the frontend engineering team, fostering
-                  a culture of knowledge sharing and continuous improvement.
+                  Mentor team members, promoting a culture of knowledge sharing.
                 </li>
               </ul>
             </div>
@@ -145,7 +138,7 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Full-stack Developer (Intern){" "}
+                Full-stack Developer (Contract){" "}
                 <span className="text-[#64ffda]">
                   @{" "}
                   <Link href="https://kit.edu.kh">
@@ -163,32 +156,29 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Contributed in the development of sponsored company job portal
-                  mobile application that streamlined job listings, job
-                  applications and candidate tracking.
+                  Developed a job portal mobile app for a sponsor company,
+                  making job listings, applications, and candidate tracking more
+                  efficient.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Assisted in the development of sponsored company job matching
-                  AI model, increasing the reliability rate by 75%.
+                  Worked on improving an AI-powered job matching system,
+                  improving reliability rate by 75%.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Led a team of 3 software engineers in designing, developing
-                  and deploying a real-time chat application with writing
-                  assistant in a span of 3 months.
+                  Led a team of 3 engineers to build and launch a real-time chat
+                  app with a writing assistant in 3 months.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Implemented backend services for various projects using
-                  ExpressJS, NestJS, MongoDB and SQL for efficient data storage
-                  and retrieval.
+                  Developed backend services with ExpressJS, NestJS, MongoDB,
+                  and SQL for smooth data management.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Managed and maintained AWS infrastructure, including EC2, S3,
-                  and Cloudwatch, ensuring high availability and scalability for
-                  applications.
+                  Managed infrastructure with AWS (EC2, S3, Cloudwatch) to
+                  ensure high availability and scalability.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Partnered with QA teams to identify and resolve defects and to
-                  implement effective testing strategies.
+                  Worked with QA teams to test and troubleshoot software
+                  effectively.
                 </li>
               </ul>
             </div>
@@ -201,7 +191,7 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Cyber Security Researcher (Intern){" "}
+                Cyber Security Researcher (Contract){" "}
                 <span className="text-[#64ffda]">
                   @{" "}
                   <Link href="https://kit.edu.kh">
@@ -264,15 +254,17 @@ function Work() {
                   </Link>
                 </span>
               </h3>
-              <p className="font-mono text-[#a8b2d1]">January - June 2022</p>
+              <p className="font-mono text-[#a8b2d1]">
+                January 2022 - June 2022
+              </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Designed and implemented responsive WordPress websites for
-                  diverse clients.
+                  Designed and built responsive WordPress websites for various
+                  clients.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Manage and maintain clients&apos; WordPress websites, ensuring
-                  optimal performance and uptime.
+                  Maintained clients&apos; websites, ensuring smooth performance
+                  and uptime.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Improved websites&apos; SEO through structured data, metadata,
