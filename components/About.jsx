@@ -19,10 +19,10 @@ const About = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-[100%] md:w-[65%] pr-0 py-12 md:pr-12 sm:py-0">
             <p className="mb-4">
-              Hello! My name is Sopagnarith and I enjoy exploring and
-              implementing new technologies. I started out my career path in
-              Cyber Security back in 2019, in which I&apos;ve had many
-              opportunities to be responsible for many cyber security tasks at{" "}
+              Hello! My name is Sopagnarith, and I enjoy exploring and
+              implementing new technologies. I began my career in cybersecurity
+              in 2019, where I had numerous opportunities to take on various
+              cybersecurity tasks at{" "}
               <Link href="https://kit.edu.kh">
                 <a
                   target="_blank"
@@ -34,37 +34,35 @@ const About = () => {
               .
             </p>
             <p className="my-4">
-              However, towards the end of 2021, I&apos;ve unknowingly managed to
-              discover my profound interest for Software Development, which
-              heavily influenced my decision in making a major career shift
-              towards Software Development.
+              However, towards the end of 2021, I unknowingly discovered my
+              profound interest in software development, which heavily
+              influenced my decision to make a major career shift in that
+              direction.
             </p>
             <p className="my-4">
-              Despite being my first actual intensive year in the field,
-              I&apos;ve had the privilege of working under multiple
-              professional-setting projects such as: a job portal app, a covid
-              traveling app and a chat app with grammar correction. I started
-              out my professional working experience under{" "}
+              Despite 2022 being my first intensive year in the field, I had the
+              privilege of working on multiple professional projects, including
+              a job portal app, a COVID-19 travel app, and a chat app with
+              grammar correction. I started my professional journey at{" "}
               <Link href="https://jobify.works">
                 <a
                   target="_blank"
                   className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                 >
-                  a revolutionary startup company
+                  a revolutionary startup
                 </a>
-              </Link>
-              , that aims to connect IT workers within Cambodia with companies
-              that are in need. Most recently, I&apos;ve received an opportunity
-              to work in{" "}
+              </Link>{" "}
+              that aims to connect IT workers in Cambodia with companies in need
+              of talent. Most recently, I had the opportunity to work at{" "}
               <Link href="https://www.prudential.com.kh">
                 <a
                   target="_blank"
                   className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                 >
-                  one of Cambodia&apos;s largest insurance company
+                  one of Cambodia&apos;s largest insurance companies
                 </a>
               </Link>
-              , that aims to raise insurance awareness to ensure better
+              , which strives to raise insurance awareness and ensure a better
               livelihood for Khmer people.
             </p>
             <p className="my-4">

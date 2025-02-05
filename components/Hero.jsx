@@ -40,8 +40,10 @@ const Hero = () => {
           viewport={{ once: true }}
           className="max-w-lg font-sans"
         >
-          I&apos;m Sopagnarith, a results-driven Software Engineer with a strong
-          background in modern JavaScript technologies. I love learning new
+          I&apos;m a software engineer with 3 years of experience in software
+          development, mainly working with modern full-stack JavaScript
+          technologies. I have worked in various industries, including
+          insurance, software solutions, and startups. I love learning new
           technologies and finding innovative solutions to meet evolving
           business needs.
         </motion.p>

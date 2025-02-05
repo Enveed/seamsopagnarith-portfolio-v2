@@ -101,15 +101,15 @@ function Work() {
               <p className="font-mono text-[#a8b2d1]">March 2023 - Present</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Spearhead the development of a new POS system frontend for
-                  Cambodia and Myanmar, reducing system downtime and manual work
-                  by 90% and 70%, respectively. The project won Project of the
-                  Year for 2023.
+                  Lead the development of a new POS system frontend for Cambodia
+                  and Myanmar, reducing system downtime and manual work by 90%
+                  and 70%, respectively. The project won Project of the Year for
+                  2023.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Develop applications for lead management, policy servicing,
-                  and customer servicing in Cambodia and Myanmar, with dynamic
-                  configuration practice.
+                  Develop applications for agent servicing, customer servicing,
+                  and policy servicing in Cambodia and Myanmar, with dynamic
+                  configuration practice
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Integrate applications with core system and banking partners,
@@ -122,7 +122,8 @@ function Work() {
                   performance.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Oversee deployment of applications from Staging to Production.
+                  Develop automated CI/CD pipelines to streamline application
+                  deployment from development to production.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Mentor team members, promoting a culture of knowledge sharing.
@@ -156,13 +157,12 @@ function Work() {
               </p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Developed a job portal mobile app for a sponsor company,
-                  making job listings, applications, and candidate tracking more
-                  efficient.
+                  Developed a job portal mobile app for a sponsored company,
+                  streamlining job listings, job applications, and candidate
+                  tracking.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked on improving an AI-powered job matching system,
-                  improving reliability rate by 75%.
+                  Enhanced a job matching AI model, boosting reliability by 75%.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Led a team of 3 engineers to build and launch a real-time chat
@@ -170,15 +170,11 @@ function Work() {
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Developed backend services with ExpressJS, NestJS, MongoDB,
-                  and SQL for smooth data management.
+                  and SQL for efficient data storage and retrieval.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Managed infrastructure with AWS (EC2, S3, Cloudwatch) to
                   ensure high availability and scalability.
-                </li>
-                <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
-                  Worked with QA teams to test and troubleshoot software
-                  effectively.
                 </li>
               </ul>
             </div>
