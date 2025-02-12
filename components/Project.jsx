@@ -118,6 +118,7 @@ export const Project = () => {
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
                     <li>C#(.NET)</li>
+                    <li>MVC</li>
                     <li>Bootstrap</li>
                     <li>jQuery</li>
                     <li>SQL</li>
@@ -191,7 +192,7 @@ export const Project = () => {
                 </main>
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>React</li>
+                    <li>ReactJS</li>
                     <li>MUI</li>
                     <li>C#(.NET)</li>
                     <li>MongoDB</li>
@@ -229,7 +230,7 @@ export const Project = () => {
                 </main>
                 <footer>
                   <ul className="flex flex-wrap gap-x-4 text-xs py-2 font-mono text-[#8892b0]">
-                    <li>React</li>
+                    <li>ReactJS</li>
                     <li>MUI</li>
                     <li>C#(.NET)</li>
                     <li>MongoDB</li>
