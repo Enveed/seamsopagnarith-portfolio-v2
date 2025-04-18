@@ -85,7 +85,7 @@ function Work() {
               }`}
             >
               <h3 className="text-[#ccd6f6] text-xl">
-                Senior Supervisor, Application Development & Support{" "}
+                Senior Software Engineer{" "}
                 <span className="text-[#64ffda]">
                   @{" "}
                   <Link href="https://www.prudential.com.kh">
@@ -103,8 +103,9 @@ function Work() {
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Lead the development of a new POS system frontend for Cambodia
                   and Myanmar, reducing system downtime and manual work by 90%
-                  and 70%, respectively. The project won Project of the Year for
-                  2023.
+                  and 70%, respectively. The project won Project of the Year in
+                  2023, followed by one of the platform&apos;s featured products
+                  receiving the same award in 2024.
                 </li>
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Develop applications for agent servicing, customer servicing,
