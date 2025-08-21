@@ -93,7 +93,7 @@ const About = () => {
             <Image
               src="/assets/sopagnarith-seam-image.png"
               alt="seam-sopagnarith"
-              className="rounded-sm"
+              className="rounded-sm object-cover object-[50%_20%]"
               layout="responsive"
               width="500"
               height="500"

@@ -98,7 +98,7 @@ function Work() {
                   </Link>
                 </span>
               </h3>
-              <p className="font-mono text-[#a8b2d1]">March 2023 - Present</p>
+              <p className="font-mono text-[#a8b2d1]">March 2023 - July 2025</p>
               <ul className="pt-3">
                 <li className="relative pl-7 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda] py-1">
                   Lead the development of a new POS system frontend for Cambodia
