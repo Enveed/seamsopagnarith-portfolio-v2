@@ -1,43 +1,42 @@
 import Link from "next/link";
-import React from "react";
 import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { TbBrandTelegram } from "react-icons/tb";
 import { motion } from "framer-motion";
 
+const socialLinks = [
+  {
+    Icon: FiGithub,
+    href: "https://github.com/Enveed",
+  },
+  {
+    Icon: FiLinkedin,
+    href: "https://www.linkedin.com/in/sopagnarith-seam-38571a253",
+  },
+  {
+    Icon: TbBrandTelegram,
+    href: "https://t.me/sopagnarith_seam",
+  },
+];
+
+const SocialLink = ({ Icon, href }) => {
+  return (
+    <li>
+      <Link href={href}>
+        <a target="_blank">
+          <Icon size={20} className="hover:stroke-[#64ffda] duration-300" />
+        </a>
+      </Link>
+    </li>
+  );
+};
+
 const Footer = () => {
   return (
-    <div className="w-full text-center pt-12 group cursor-pointer font-mono">
+    <footer className="w-full text-center pt-12 group cursor-pointer font-mono">
       <ul className="flex md:hidden justify-center gap-8 py-4">
-        <li>
-          <Link href="https://github.com/Enveed">
-            <a target="_blank">
-              <FiGithub
-                size={20}
-                className="hover:stroke-[#64ffda] duration-300"
-              />
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://www.linkedin.com/in/sopagnarith-seam-38571a253">
-            <a target="_blank">
-              <FiLinkedin
-                size={20}
-                className="hover:stroke-[#64ffda] duration-300"
-              />
-            </a>
-          </Link>
-        </li>
-        <li>
-          <Link href="https://t.me/sopagnarith_seam">
-            <a target="_blank">
-              <TbBrandTelegram
-                size={20}
-                className="hover:stroke-[#64ffda] duration-300"
-              />
-            </a>
-          </Link>
-        </li>
+        {socialLinks.map((link) => (
+          <SocialLink key={link.href} {...link} />
+        ))}
       </ul>
       <p className="text-sm hover:text-[#64ffda] duration-300 mb-2">
         <Link href="https://brittanychiang.com">
@@ -58,36 +57,9 @@ const Footer = () => {
         className="hidden md:inline-block fixed bottom-0 left-[20px] xl:left-[40px]"
       >
         <ul className="flex flex-col justify-center items-center gap-8 after:block after:content-[''] after:h-[90px] after:w-[1px] after:bg-[#a8b2d1]">
-          <li>
-            <Link href="https://github.com/Enveed">
-              <a target="_blank">
-                <FiGithub
-                  size={20}
-                  className="hover:stroke-[#64ffda] hover:translate-y-[-10%] duration-300"
-                />
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://www.linkedin.com/in/sopagnarith-seam-38571a253">
-              <a target="_blank">
-                <FiLinkedin
-                  size={20}
-                  className="hover:stroke-[#64ffda] hover:translate-y-[-10%] duration-300"
-                />
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://t.me/sopagnarith_seam">
-              <a target="_blank">
-                <TbBrandTelegram
-                  size={20}
-                  className="hover:stroke-[#64ffda] hover:translate-y-[-10%] duration-300"
-                />
-              </a>
-            </Link>
-          </li>
+          {socialLinks.map((link) => (
+            <SocialLink key={link.href} {...link} />
+          ))}
         </ul>
       </motion.div>
 
@@ -109,7 +81,7 @@ const Footer = () => {
           </Link>
         </div>
       </motion.div>
-    </div>
+    </footer>
   );
 };
 

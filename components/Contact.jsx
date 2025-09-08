@@ -1,10 +1,9 @@
 import Link from "next/link";
-import React from "react";
 import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full text-center py-12">
+    <section id="contact" className="w-full text-center py-12">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -29,7 +28,7 @@ const Contact = () => {
           </a>
         </Link>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

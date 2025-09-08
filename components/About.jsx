@@ -1,11 +1,27 @@
 import Image from "next/image";
-import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+const skills = [
+  "ReactJS",
+  "C#(.NET)",
+  "Jenkins",
+  "Kubernetes",
+  "MongoDB",
+  "SQL",
+];
+
+const Skill = ({ name }) => {
+  return (
+    <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
+      {name}
+    </li>
+  );
+};
+
 const About = () => {
   return (
-    <div id="about" className="w-full text-center py-12 font-sans">
+    <section id="about" className="w-full text-center py-12 font-sans">
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -13,11 +29,11 @@ const About = () => {
         viewport={{ once: true }}
         className="max-w-[900px] w-full mx-auto p-6 text-left sm:p-16"
       >
-        <h2 className="text-2xl text-[#ccd6f6] w-100% sm:mb-8 after:content-[''] after:h-[1px] w-full md:after:w-[200px] lg:after:w-[300px] after:bg-[#233554] after:block after:relative after:top-[-15px] after:ml-[175px]">
+        <h2 className="text-2xl text-[#ccd6f6] w-full sm:mb-8 after:content-[''] after:h-[1px] md:after:w-[200px] lg:after:w-[300px] after:bg-[#233554] after:block after:relative after:top-[-15px] after:ml-[175px]">
           <span className="text-[#64ffda] font-mono">02.</span> About Me
         </h2>
         <div className="flex flex-wrap justify-between">
-          <div className="w-[100%] md:w-[65%] pr-0 py-12 md:pr-12 sm:py-0">
+          <div className="w-full md:w-[65%] pr-0 py-12 md:pr-12 sm:py-0">
             <p className="mb-4">
               Hello! My name is Sopagnarith, and I enjoy exploring and
               implementing new technologies. I began my career in cybersecurity
@@ -69,39 +85,24 @@ const About = () => {
               Here are a few technologies I&apos;ve been working with recently:
             </p>
             <ul className="grid grid-cols-skill-grid gap-2 overflow-hidden font-mono">
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                ReactJS
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                C#(.NET)
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Jenkins
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                Kubernetes
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                MongoDB
-              </li>
-              <li className="relative pl-4 before:left-0 before:absolute before:content-['▹'] before:text-[#64ffda]">
-                SQL
-              </li>
+              {skills.map((skill) => (
+                <Skill name={skill} key={skill} />
+              ))}
             </ul>
           </div>
-          <div className="w-[100%] md:w-[35%] py-12 md:py-0">
+          <div className="w-full md:w-[35%] py-12 md:py-0">
             <Image
               src="/assets/sopagnarith-seam-image.png"
               alt="seam-sopagnarith"
               className="rounded-sm object-cover object-[50%_20%]"
               layout="responsive"
-              width="500"
-              height="500"
-            ></Image>
+              width={500}
+              height={500}
+            />
           </div>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 
