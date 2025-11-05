@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const skills = [
-  "NextJS (React)",
-  "ExpressJS (NodeJS)",
-  "C#(.NET)",
+  "ReactJS (NextJS)",
+  "NodeJS (ExpressJS)",
+  "C# (.NET)",
   "AWS",
   "Jenkins",
   "Kubernetes",
