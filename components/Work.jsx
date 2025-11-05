@@ -8,6 +8,7 @@ const indicatorMovementMd = [
   "sm:translate-y-[160px]",
   "sm:translate-y-[240px]",
   "sm:translate-y-[320px]",
+  "sm:translate-y-[400px]",
 ];
 
 const indicatorMovement = [
@@ -16,21 +17,34 @@ const indicatorMovement = [
   "translate-x-[240px]",
   "translate-x-[360px]",
   "translate-x-[480px]",
+  "translate-x-[600px]",
 ];
 
 const workExperience = [
+  {
+    company: "Forte Insurance (Cambodia)",
+    role: "Senior Developer, Group Technology",
+    date: "July 2025 - Present",
+    link: "https://forteinsurance.com/",
+    tasks: [
+      "Work on the decommissioning of an internal management platform using NextJS, ExpressJS, PostgreSQL, Redis, Snowflake, and AWS services.",
+      "Develop payment integration APIs using .NET, Snowflake, and PostgreSQL.",
+      "Support the migration of data and scripts from Oracle into Snowflake DWH.",
+      "Contribute to the management of cloud infrastructure and deployment pipelines on AWS.",
+    ],
+  },
   {
     company: "Prudential Cambodia",
     role: "Senior Software Engineer",
     date: "March 2023 - July 2025",
     link: "https://www.prudential.com.kh",
     tasks: [
-      "Lead the development of a new POS system frontend for Cambodia and Myanmar, reducing system downtime and manual work by 90% and 70%, respectively. The project won Project of the Year in 2023, followed by one of the platform's featured products receiving the same award in 2024.",
-      "Develop applications for agent servicing, customer servicing, and policy servicing in Cambodia and Myanmar, with dynamic configuration practice",
-      "Integrate applications with core system and banking partners, resulting in smooth data exchange and complete customer information.",
-      "Contribute to the decommission of legacy systems, cutting operational costs by 65% while enhancing reliability and performance.",
-      "Develop automated CI/CD pipelines to streamline application deployment from development to production.",
-      "Mentor team members, promoting a culture of knowledge sharing.",
+      "Led the development of a new POS system frontend for Cambodia and Myanmar, reducing system downtime and manual work by 90% and 70%, respectively. The project won Project of the Year in 2023 and 2024.",
+      "Developed applications for agent servicing, customer servicing, and policy servicing in Cambodia and Myanmar, with dynamic configuration practice.",
+      "Integrated applications with core system and banking partners, resulting in smooth data exchange and complete customer information.",
+      "Contributed to the decommission of legacy systems, cutting operational costs by 65% while enhancing reliability and performance.",
+      "Developed automated CI/CD pipelines to streamline application deployment from development to production.",
+      "Mentored team members, promoting a culture of knowledge sharing.",
     ],
   },
   {

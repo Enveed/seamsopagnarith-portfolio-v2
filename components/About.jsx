@@ -3,12 +3,14 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const skills = [
-  "ReactJS",
+  "NextJS (React)",
+  "ExpressJS (NodeJS)",
   "C#(.NET)",
+  "AWS",
   "Jenkins",
   "Kubernetes",
-  "MongoDB",
   "SQL",
+  "MongoDB",
 ];
 
 const Skill = ({ name }) => {
@@ -69,13 +71,13 @@ const About = () => {
                 </a>
               </Link>{" "}
               that aims to connect IT workers in Cambodia with companies in need
-              of talent. Most recently, I had the opportunity to work at{" "}
+              of talent. Most recently, I&apos;ve had the opportunity to work at{" "}
               <Link href="https://www.prudential.com.kh">
                 <a
                   target="_blank"
                   className="inline-block text-[#64ffda] after:block after:h-[1px] after:w-0 after:bg-[#64ffda] hover:after:w-full after:transition-all after:duration-300"
                 >
-                  one of Cambodia&apos;s largest insurance companies
+                  one of Cambodia&apos;s largest life insurance companies
                 </a>
               </Link>
               , which strives to raise insurance awareness and ensure a better
