@@ -27,10 +27,9 @@ const workExperience = [
     date: "July 2025 - Present",
     link: "https://forteinsurance.com/",
     tasks: [
-      "Work on the decommissioning of an internal management platform using NextJS, ExpressJS, PostgreSQL, Redis, Snowflake, and AWS services.",
-      "Develop payment integration APIs using .NET, Snowflake, and PostgreSQL.",
-      "Support the migration of data and scripts from Oracle into Snowflake DWH.",
-      "Contribute to the management of cloud infrastructure and deployment pipelines on AWS.",
+      "Contributed to implementing a continuous core insurance data replication pipeline, including table-level deduplication and transformation logic to enable reliable near real-time analytics.",
+      "Built and launched a new Internal Management System to replace a legacy platform, improving query performance by up to 60% and reducing long-running analytical reports from 3-4 hours to ~5 minutes.",
+      "Managed and maintained AWS production infrastructure across ECS, EC2, RDS, S3, ALB, Route 53, CloudFront, CloudWatch, and NAT Gateway, ensuring scalable and secure cloud operations.",
     ],
   },
   {
