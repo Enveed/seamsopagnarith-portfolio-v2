@@ -22,9 +22,20 @@ const indicatorMovement = [
 
 const workExperience = [
   {
+    company: "Phnom Penh, Cambodia",
+    role: "Freelance Software Engineer",
+    date: "March 2026 - Present",
+    link: "/",
+    tasks: [
+      "Migrated a client's platform to AWS, redesigning frontend and backend infrastructure for cost efficiency and scalability, enabling it to serve 2,000 concurrent users in a day.",
+      "Delivered performance enhancements, including a core function overhaul that reduced processing time from about 1 week to 4 to 5 hours.",
+      "Leading an ERP system migration for a fintech client while contributing as an individual contributor under a compressed delivery timeline.",
+    ],
+  },
+  {
     company: "Forte Insurance (Cambodia)",
     role: "Senior Developer, Group Technology",
-    date: "July 2025 - Present",
+    date: "July 2025 - March 2026",
     link: "https://forteinsurance.com/",
     tasks: [
       "Contributed to implementing a continuous core insurance data replication pipeline, including table-level deduplication and transformation logic to enable reliable near real-time analytics.",
@@ -70,20 +81,6 @@ const workExperience = [
       "Analyzed network traffic using Wireshark to detect and investigate malicious activities or suspicious behavior.",
       "Collaborated with team members to evaluate SIEM tools, comparing event correlation, detection capabilities, and ease of use.",
       "Contributed to training and awareness sessions on incident handling procedures for non-technical staff.",
-    ],
-  },
-  {
-    company: "Sky Asia Network",
-    role: "Webmaster",
-    date: "January 2022 - June 2022",
-    link: "https://skyasianetwork.com",
-    tasks: [
-      "Designed and built responsive WordPress websites for various clients.",
-      "Maintained clients' websites, ensuring smooth performance and uptime.",
-      "Improved websites' SEO through structured data, metadata, and optimized media.",
-      "Performed regular backups, updates, and troubleshoot technical issues.",
-      "Collaborated with content teams to upload, edit, and organize content effectively.",
-      "Provided technical consultations to clients, ensuring clarity in timeline and deliverables.",
     ],
   },
 ];
