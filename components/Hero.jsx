@@ -31,7 +31,7 @@ const Hero = () => {
           I build things for the web.
         </motion.h2>
         <motion.p {...motionProps(3.1)} className="max-w-lg font-sans">
-          I&apos;m a software engineer with 4 years of experience in software
+          I&apos;m a software engineer with 5 years of experience in software
           development, mainly working with modern full-stack JavaScript
           technologies. I have worked in various industries, including
           insurance, software solutions, and startups. I love learning new
