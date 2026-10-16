@@ -29,7 +29,7 @@ const workExperience = [
     tasks: [
       "Migrated a client's platform to AWS, redesigning frontend and backend infrastructure for cost efficiency and scalability, enabling it to serve 4,000+ customers in a single day.",
       "Delivered performance enhancements, including a core function overhaul that reduced processing time from about 1 week to 4 to 5 hours.",
-      "Leading an ERP system migration for a fintech client while contributing as an individual contributor under a compressed delivery timeline.",
+      "Led an ERP system migration for a fintech client while contributing as an individual contributor under a compressed delivery timeline.",
     ],
   },
   {
